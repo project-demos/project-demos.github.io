@@ -1,4 +1,4 @@
 project-demos.github.io
 =======================
 
-project demos
+[http://project-demos.github.io/](http://project-demos.github.io/)
