@@ -804,25 +804,107 @@ section .text p {
   width: 60%;
   margin: 0 auto;
 }
-/* line 125, ../../../components/sass/_modules.scss */
+@media (max-width: 804px) {
+  /* line 117, ../../../components/sass/_modules.scss */
+  section .text p {
+    width: 90%;
+  }
+}
+/* line 129, ../../../components/sass/_modules.scss */
 section .text p.first {
   text-indent: 0;
 }
-/* line 129, ../../../components/sass/_modules.scss */
+/* line 133, ../../../components/sass/_modules.scss */
 section .text p .highlight {
   color: #8d1b20;
   font-family: "Heuristica-BoldItalic", serif;
   font-size: 24px;
   margin-right: .4em;
 }
+/* line 143, ../../../components/sass/_modules.scss */
+section .text .side-stat {
+  box-sizing: content-box;
+  color: #8d1b20;
+  text-align: right;
+  margin-left: 3%;
+  float: left;
+  padding-right: 15px;
+  border-right: 2px solid #000;
+}
+@media (max-width: 804px) {
+  /* line 143, ../../../components/sass/_modules.scss */
+  section .text .side-stat {
+    margin-left: 5%;
+    margin-right: 1em;
+    margin-bottom: 1em;
+  }
+}
+/* line 158, ../../../components/sass/_modules.scss */
+section .text .side-stat .side-percent {
+  font-family: "NotoSans-Bold", sans-serif;
+}
+/* line 161, ../../../components/sass/_modules.scss */
+section .text .side-stat .side-percent .side-num {
+  font-size: 48px;
+}
+/* line 165, ../../../components/sass/_modules.scss */
+section .text .side-stat .side-percent .side-sign {
+  font-size: 28px;
+  vertical-align: top;
+}
+/* line 171, ../../../components/sass/_modules.scss */
+section .text .side-stat .side-desc {
+  font-family: "Heuristica-BoldItalic", serif;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+/* line 180, ../../../components/sass/_modules.scss */
+section#mix .text .side-stat {
+  width: 130px;
+  margin-left: calc(20% - 162px);
+  margin-top: 1em;
+}
+@media (max-width: 804px) {
+  /* line 180, ../../../components/sass/_modules.scss */
+  section#mix .text .side-stat {
+    margin-top: 1em;
+    margin-left: 5%;
+  }
+}
+/* line 191, ../../../components/sass/_modules.scss */
+section#legal .text .side-stat {
+  width: 87px;
+  margin-left: calc(20% - 119px);
+  margin-top: 2em;
+}
+@media (max-width: 804px) {
+  /* line 191, ../../../components/sass/_modules.scss */
+  section#legal .text .side-stat {
+    margin-top: 1em;
+    margin-left: 5%;
+  }
+}
+/* line 202, ../../../components/sass/_modules.scss */
+section#two .text .side-stat {
+  width: 121px;
+  margin-left: calc(20% - 153px);
+  margin-top: 1em;
+}
+@media (max-width: 804px) {
+  /* line 202, ../../../components/sass/_modules.scss */
+  section#two .text .side-stat {
+    margin-top: 1em;
+    margin-left: 5%;
+  }
+}
 
-/* line 146, ../../../components/sass/_modules.scss */
+/* line 219, ../../../components/sass/_modules.scss */
 #intro p .highlight {
   color: #8d1b20;
   font-family: "Heuristica-Bold", serif;
   font-size: 14px;
 }
-/* line 151, ../../../components/sass/_modules.scss */
+/* line 224, ../../../components/sass/_modules.scss */
 #intro p .highlight .big-letter {
   font-family: "Heuristica-Regular", serif;
   font-size: 300px;
@@ -831,28 +913,28 @@ section .text p .highlight {
   margin-top: 3px;
 }
 
-/* line 167, ../../../components/sass/_modules.scss */
+/* line 240, ../../../components/sass/_modules.scss */
 section .banner h2, section .banner-half h2 {
   font-family: "Heuristica-BoldItalic", serif;
   font-size: 36px;
   color: #731c15;
   margin-bottom: 15px;
 }
-/* line 174, ../../../components/sass/_modules.scss */
+/* line 247, ../../../components/sass/_modules.scss */
 section .banner .description, section .banner-half .description {
   font-family: "NotoSans-Bold", sans-serif;
   font-size: 13px;
   color: #fff;
   line-height: 140%;
 }
-/* line 182, ../../../components/sass/_modules.scss */
+/* line 255, ../../../components/sass/_modules.scss */
 section .banner {
   width: 100%;
   padding: 4%;
   position: relative;
   overflow: hidden;
 }
-/* line 188, ../../../components/sass/_modules.scss */
+/* line 261, ../../../components/sass/_modules.scss */
 section .banner .logo {
   position: absolute;
   opacity: .7;
@@ -860,7 +942,7 @@ section .banner .logo {
   right: 75px;
   width: 23%;
 }
-/* line 198, ../../../components/sass/_modules.scss */
+/* line 271, ../../../components/sass/_modules.scss */
 section .banner-half {
   width: 100%;
   position: relative;
@@ -874,14 +956,14 @@ section .banner-half:before, section .banner-half:after {
 section .banner-half:after {
   clear: both;
 }
-/* line 203, ../../../components/sass/_modules.scss */
+/* line 276, ../../../components/sass/_modules.scss */
 section .banner-half .left {
   float: left;
   width: 45%;
   position: relative;
   padding: 4%;
 }
-/* line 209, ../../../components/sass/_modules.scss */
+/* line 282, ../../../components/sass/_modules.scss */
 section .banner-half .left .logo {
   position: absolute;
   opacity: .7;
@@ -889,86 +971,87 @@ section .banner-half .left .logo {
   right: -60px;
   top: 25%;
 }
-/* line 219, ../../../components/sass/_modules.scss */
+/* line 292, ../../../components/sass/_modules.scss */
 section .banner-half .right {
   float: right;
   height: 100%;
   width: 55%;
 }
-/* line 224, ../../../components/sass/_modules.scss */
+/* line 297, ../../../components/sass/_modules.scss */
 section .banner-half .right .half-img {
   width: 100%;
   max-width: 520px;
   display: block;
   float: right;
 }
-/* line 232, ../../../components/sass/_modules.scss */
+/* line 305, ../../../components/sass/_modules.scss */
 section .banner-half .caption-half {
   position: absolute;
   bottom: 8%;
   left: 4%;
   line-height: 130%;
 }
-/* line 241, ../../../components/sass/_modules.scss */
+/* line 314, ../../../components/sass/_modules.scss */
 section#stepmom .banner {
   background-color: #ea3a2d;
 }
-/* line 244, ../../../components/sass/_modules.scss */
+/* line 317, ../../../components/sass/_modules.scss */
 section#stepmom .banner .description {
   width: 70%;
 }
-/* line 249, ../../../components/sass/_modules.scss */
+/* line 322, ../../../components/sass/_modules.scss */
 section#grandma .banner {
   background-color: #7a9ca5;
 }
-/* line 252, ../../../components/sass/_modules.scss */
+/* line 325, ../../../components/sass/_modules.scss */
 section#grandma .banner .description {
   width: 62%;
 }
-/* line 257, ../../../components/sass/_modules.scss */
+/* line 330, ../../../components/sass/_modules.scss */
 section#legal .banner {
   background-color: #319b61;
 }
-/* line 260, ../../../components/sass/_modules.scss */
+/* line 333, ../../../components/sass/_modules.scss */
 section#legal .banner .description {
   width: 62%;
 }
-/* line 265, ../../../components/sass/_modules.scss */
+/* line 338, ../../../components/sass/_modules.scss */
 section#boomerang .banner {
   background-color: #d51831;
 }
-/* line 268, ../../../components/sass/_modules.scss */
+/* line 341, ../../../components/sass/_modules.scss */
 section#boomerang .banner .description {
   width: 62%;
 }
-/* line 273, ../../../components/sass/_modules.scss */
+/* line 346, ../../../components/sass/_modules.scss */
 section#mix .banner-half {
   background-color: #9a8aa4;
 }
-/* line 276, ../../../components/sass/_modules.scss */
+/* line 349, ../../../components/sass/_modules.scss */
 section#mix .banner-half .description {
   width: 65%;
 }
-/* line 281, ../../../components/sass/_modules.scss */
+/* line 354, ../../../components/sass/_modules.scss */
 section#two .banner-half {
   background-color: #40c5fd;
 }
-/* line 284, ../../../components/sass/_modules.scss */
+/* line 357, ../../../components/sass/_modules.scss */
 section#two .banner-half .description {
   width: 67%;
 }
-/* line 289, ../../../components/sass/_modules.scss */
+/* line 362, ../../../components/sass/_modules.scss */
 section#two .banner-half .right .half-img {
   max-width: 490px;
 }
 
-/* line 299, ../../../components/sass/_modules.scss */
+/* line 372, ../../../components/sass/_modules.scss */
 #stats {
   width: 800px;
   height: 230px;
   margin: 30px auto 50px 35px;
+  overflow: hidden;
 }
-/* line 305, ../../../components/sass/_modules.scss */
+/* line 379, ../../../components/sass/_modules.scss */
 #stats #stat-desc {
   background-color: #000;
   width: 140px;
@@ -976,25 +1059,44 @@ section#two .banner-half .right .half-img {
   color: #fff;
   float: left;
   margin-right: 40px;
+  padding: 10px;
 }
-/* line 313, ../../../components/sass/_modules.scss */
+/* line 388, ../../../components/sass/_modules.scss */
+#stats #stat-desc h3 {
+  font-family: "NotoSans-Regular", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+/* line 394, ../../../components/sass/_modules.scss */
+#stats #stat-desc h4 {
+  font-family: "Heuristica-BoldItalic", serif;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+/* line 401, ../../../components/sass/_modules.scss */
+#stats #stat-desc p {
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size: 12px;
+  line-height: 1.3em;
+}
+/* line 407, ../../../components/sass/_modules.scss */
 #stats #stat-desc:after {
   content: '';
   display: block;
-  margin-left: 140px;
-  margin-top: -16px;
+  margin-left: 130px;
+  margin-top: -217px;
   width: 0;
   height: 0;
   border-top: 115px solid transparent;
   border-bottom: 115px solid transparent;
   border-left: 40px solid #000;
 }
-/* line 326, ../../../components/sass/_modules.scss */
+/* line 420, ../../../components/sass/_modules.scss */
 #stats #chart {
   float: left;
-  width: 580px;
+  width: 600px;
 }
-/* line 330, ../../../components/sass/_modules.scss */
+/* line 424, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair {
   width: 141px;
   padding: 0 2px;
@@ -1002,11 +1104,11 @@ section#two .banner-half .right .half-img {
   position: relative;
   float: left;
 }
-/* line 337, ../../../components/sass/_modules.scss */
+/* line 431, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair.last {
   border-right: none;
 }
-/* line 341, ../../../components/sass/_modules.scss */
+/* line 435, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .pair-desc {
   height: 48px;
   font-family: "NotoSans-Bold", sans-serif;
@@ -1017,26 +1119,26 @@ section#two .banner-half .right .half-img {
   position: absolute;
   top: 91px;
 }
-/* line 352, ../../../components/sass/_modules.scss */
+/* line 446, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .old, #stats #chart .stat-pair .new {
   margin: 0 auto;
 }
-/* line 356, ../../../components/sass/_modules.scss */
+/* line 450, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .new {
   margin-top: 48px;
 }
-/* line 360, ../../../components/sass/_modules.scss */
+/* line 454, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay {
   font-family: "NotoSans-Bold", sans-serif;
 }
-/* line 362, ../../../components/sass/_modules.scss */
+/* line 456, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay .percent {
   font-size: 38px;
   color: #8d1b1f;
   margin-top: 23px;
   margin-left: -5px;
 }
-/* line 368, ../../../components/sass/_modules.scss */
+/* line 462, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay .percent .percent-sign {
   font-size: 16px;
   margin-top: 5px;
@@ -1044,11 +1146,40 @@ section#two .banner-half .right .half-img {
   margin-right: 4px;
   float: right;
 }
-/* line 377, ../../../components/sass/_modules.scss */
+/* line 471, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay .year {
   font-size: 14px;
   color: #435E89;
   position: absolute;
   top: 10px;
   width: 100%;
+}
+/* line 481, ../../../components/sass/_modules.scss */
+#stats #chart #blocks {
+  float: right;
+  width: 28px;
+  height: 230px;
+}
+/* line 486, ../../../components/sass/_modules.scss */
+#stats #chart #blocks .block {
+  width: 28px;
+  height: 88px;
+  margin-top: 17px;
+}
+/* line 491, ../../../components/sass/_modules.scss */
+#stats #chart #blocks .block .block-text {
+  font-family: "NotoSans-Regular", sans-serif;
+  font-size: 18px;
+  background-color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 27px;
+  color: #fff;
+  width: 104px;
+  height: 28px;
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  margin-left: -38px;
+  margin-top: 38px;
 }
