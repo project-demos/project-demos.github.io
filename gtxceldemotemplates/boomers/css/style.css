@@ -690,51 +690,60 @@ header {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding-top: 800px;
   position: relative;
 }
-/* line 10, ../../../components/sass/_modules.scss */
+/* line 11, ../../../components/sass/_modules.scss */
+header #logo-space img {
+  visibility: hidden;
+  width: 80%;
+}
+/* line 17, ../../../components/sass/_modules.scss */
 header #logo-big {
   position: absolute;
-  width: 658px;
+  /*width: 658px;
   top: 48px;
-  left: 116px;
+  left: 116px;*/
+  width: 68.54%;
+  top: 3%;
+  left: 15.73%;
 }
-/* line 22, ../../../components/sass/_modules.scss */
+/* line 32, ../../../components/sass/_modules.scss */
 header h1 {
   font-family: "Heuristica-Regular", serif;
   font-size: 110px;
   line-height: 90%;
   text-transform: uppercase;
-  width: 575px;
+  width: 59.9%;
+  min-width: 320px;
   text-align: center;
   margin: 0 auto;
 }
-/* line 31, ../../../components/sass/_modules.scss */
+/* line 42, ../../../components/sass/_modules.scss */
 header h1 .title-highlight {
   font-size: 207px;
   line-height: 85%;
   font-family: "Heuristica-Italic", serif;
 }
-/* line 38, ../../../components/sass/_modules.scss */
+/* line 49, ../../../components/sass/_modules.scss */
 header .stars {
   text-align: center;
   margin: 20px auto 10px auto;
 }
-/* line 42, ../../../components/sass/_modules.scss */
+/* line 53, ../../../components/sass/_modules.scss */
 header .stars img {
   width: 116px;
 }
-/* line 47, ../../../components/sass/_modules.scss */
+/* line 58, ../../../components/sass/_modules.scss */
 header .title-description {
   font-family: "Heuristica-Italic", serif;
   font-size: 36px;
   line-height: 120%;
   text-align: center;
-  width: 500px;
+  width: 52%;
+  min-width: 270px;
   margin: 0 auto;
 }
-/* line 56, ../../../components/sass/_modules.scss */
+/* line 68, ../../../components/sass/_modules.scss */
 header .byline-main {
   font-family: "Heuristica-Bold", serif;
   font-size: 36px;
@@ -742,7 +751,13 @@ header .byline-main {
   text-transform: uppercase;
   margin: 80px auto 10px auto;
 }
-/* line 64, ../../../components/sass/_modules.scss */
+@media (max-width: 599px) {
+  /* line 68, ../../../components/sass/_modules.scss */
+  header .byline-main {
+    margin: 40px auto 10px auto;
+  }
+}
+/* line 80, ../../../components/sass/_modules.scss */
 header .byline-sub {
   font-family: "Heuristica-Regular", serif;
   font-size: 22px;
@@ -751,51 +766,55 @@ header .byline-sub {
   margin-bottom: 70px;
 }
 
-/* line 75, ../../../components/sass/_modules.scss */
+/* line 91, ../../../components/sass/_modules.scss */
 section {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
-/* line 80, ../../../components/sass/_modules.scss */
+/* line 96, ../../../components/sass/_modules.scss */
 section .photo-container {
   width: 100%;
   position: relative;
 }
-/* line 84, ../../../components/sass/_modules.scss */
+/* line 100, ../../../components/sass/_modules.scss */
 section .photo-container .full-img {
   width: 100%;
 }
-/* line 88, ../../../components/sass/_modules.scss */
+/* line 104, ../../../components/sass/_modules.scss */
 section .photo-container .caption-full {
   width: 100%;
-  height: 52px;
-  line-height: 52px;
+  line-height: 18px;
+  padding: 15px 0;
   padding-left: 4%;
   background-color: rgba(0, 23, 28, 0.75);
   position: absolute;
   bottom: 0;
   left: 0;
 }
-/* line 98, ../../../components/sass/_modules.scss */
+/* line 114, ../../../components/sass/_modules.scss */
 section .photo-container .caption-full.caption-red {
   background-color: rgba(65, 5, 0, 0.78);
 }
-/* line 104, ../../../components/sass/_modules.scss */
+/* line 120, ../../../components/sass/_modules.scss */
 section .caption {
   color: #fff;
   font-family: "NotoSans-Bold", sans-serif;
   font-size: 14px;
 }
-/* line 109, ../../../components/sass/_modules.scss */
+/* line 125, ../../../components/sass/_modules.scss */
 section .caption .light {
   font-family: "NotoSans-Regular", sans-serif;
 }
-/* line 114, ../../../components/sass/_modules.scss */
+/* line 130, ../../../components/sass/_modules.scss */
 section .text {
   margin: 30px auto 25px auto;
 }
-/* line 117, ../../../components/sass/_modules.scss */
+/* line 133, ../../../components/sass/_modules.scss */
+section .text a {
+  color: #8d1b20;
+}
+/* line 137, ../../../components/sass/_modules.scss */
 section .text p {
   font-family: "Heuristica-Regular", serif;
   font-size: 14px;
@@ -804,24 +823,24 @@ section .text p {
   width: 60%;
   margin: 0 auto;
 }
-@media (max-width: 804px) {
-  /* line 117, ../../../components/sass/_modules.scss */
+@media (max-width: 821px) {
+  /* line 137, ../../../components/sass/_modules.scss */
   section .text p {
     width: 90%;
   }
 }
-/* line 129, ../../../components/sass/_modules.scss */
+/* line 149, ../../../components/sass/_modules.scss */
 section .text p.first {
   text-indent: 0;
 }
-/* line 133, ../../../components/sass/_modules.scss */
+/* line 153, ../../../components/sass/_modules.scss */
 section .text p .highlight {
   color: #8d1b20;
   font-family: "Heuristica-BoldItalic", serif;
   font-size: 24px;
   margin-right: .4em;
 }
-/* line 143, ../../../components/sass/_modules.scss */
+/* line 163, ../../../components/sass/_modules.scss */
 section .text .side-stat {
   box-sizing: content-box;
   color: #8d1b20;
@@ -831,80 +850,80 @@ section .text .side-stat {
   padding-right: 15px;
   border-right: 2px solid #000;
 }
-@media (max-width: 804px) {
-  /* line 143, ../../../components/sass/_modules.scss */
+@media (max-width: 821px) {
+  /* line 163, ../../../components/sass/_modules.scss */
   section .text .side-stat {
     margin-left: 5%;
     margin-right: 1em;
     margin-bottom: 1em;
   }
 }
-/* line 158, ../../../components/sass/_modules.scss */
+/* line 178, ../../../components/sass/_modules.scss */
 section .text .side-stat .side-percent {
   font-family: "NotoSans-Bold", sans-serif;
 }
-/* line 161, ../../../components/sass/_modules.scss */
+/* line 181, ../../../components/sass/_modules.scss */
 section .text .side-stat .side-percent .side-num {
   font-size: 48px;
 }
-/* line 165, ../../../components/sass/_modules.scss */
+/* line 185, ../../../components/sass/_modules.scss */
 section .text .side-stat .side-percent .side-sign {
   font-size: 28px;
   vertical-align: top;
 }
-/* line 171, ../../../components/sass/_modules.scss */
+/* line 191, ../../../components/sass/_modules.scss */
 section .text .side-stat .side-desc {
   font-family: "Heuristica-BoldItalic", serif;
   font-size: 16px;
   line-height: 1.3em;
 }
-/* line 180, ../../../components/sass/_modules.scss */
+/* line 200, ../../../components/sass/_modules.scss */
 section#mix .text .side-stat {
   width: 130px;
   margin-left: calc(20% - 162px);
   margin-top: 1em;
 }
-@media (max-width: 804px) {
-  /* line 180, ../../../components/sass/_modules.scss */
+@media (max-width: 821px) {
+  /* line 200, ../../../components/sass/_modules.scss */
   section#mix .text .side-stat {
     margin-top: 1em;
     margin-left: 5%;
   }
 }
-/* line 191, ../../../components/sass/_modules.scss */
+/* line 211, ../../../components/sass/_modules.scss */
 section#legal .text .side-stat {
   width: 87px;
   margin-left: calc(20% - 119px);
   margin-top: 2em;
 }
-@media (max-width: 804px) {
-  /* line 191, ../../../components/sass/_modules.scss */
+@media (max-width: 821px) {
+  /* line 211, ../../../components/sass/_modules.scss */
   section#legal .text .side-stat {
     margin-top: 1em;
     margin-left: 5%;
   }
 }
-/* line 202, ../../../components/sass/_modules.scss */
+/* line 222, ../../../components/sass/_modules.scss */
 section#two .text .side-stat {
   width: 121px;
   margin-left: calc(20% - 153px);
   margin-top: 1em;
 }
-@media (max-width: 804px) {
-  /* line 202, ../../../components/sass/_modules.scss */
+@media (max-width: 821px) {
+  /* line 222, ../../../components/sass/_modules.scss */
   section#two .text .side-stat {
     margin-top: 1em;
     margin-left: 5%;
   }
 }
 
-/* line 219, ../../../components/sass/_modules.scss */
+/* line 239, ../../../components/sass/_modules.scss */
 #intro p .highlight {
   color: #8d1b20;
   font-family: "Heuristica-Bold", serif;
   font-size: 14px;
 }
-/* line 224, ../../../components/sass/_modules.scss */
+/* line 244, ../../../components/sass/_modules.scss */
 #intro p .highlight .big-letter {
   font-family: "Heuristica-Regular", serif;
   font-size: 300px;
@@ -912,29 +931,37 @@ section#two .text .side-stat {
   line-height: 209px;
   margin-top: 3px;
 }
+@media (max-width: 599px) {
+  /* line 244, ../../../components/sass/_modules.scss */
+  #intro p .highlight .big-letter {
+    font-size: 150px;
+    line-height: 106px;
+  }
+}
 
-/* line 240, ../../../components/sass/_modules.scss */
+/* line 265, ../../../components/sass/_modules.scss */
 section .banner h2, section .banner-half h2 {
   font-family: "Heuristica-BoldItalic", serif;
   font-size: 36px;
   color: #731c15;
   margin-bottom: 15px;
 }
-/* line 247, ../../../components/sass/_modules.scss */
+/* line 272, ../../../components/sass/_modules.scss */
 section .banner .description, section .banner-half .description {
   font-family: "NotoSans-Bold", sans-serif;
   font-size: 13px;
   color: #fff;
   line-height: 140%;
+  z-index: 5;
 }
-/* line 255, ../../../components/sass/_modules.scss */
+/* line 281, ../../../components/sass/_modules.scss */
 section .banner {
   width: 100%;
   padding: 4%;
   position: relative;
   overflow: hidden;
 }
-/* line 261, ../../../components/sass/_modules.scss */
+/* line 287, ../../../components/sass/_modules.scss */
 section .banner .logo {
   position: absolute;
   opacity: .7;
@@ -942,7 +969,7 @@ section .banner .logo {
   right: 75px;
   width: 23%;
 }
-/* line 271, ../../../components/sass/_modules.scss */
+/* line 297, ../../../components/sass/_modules.scss */
 section .banner-half {
   width: 100%;
   position: relative;
@@ -956,14 +983,14 @@ section .banner-half:before, section .banner-half:after {
 section .banner-half:after {
   clear: both;
 }
-/* line 276, ../../../components/sass/_modules.scss */
+/* line 302, ../../../components/sass/_modules.scss */
 section .banner-half .left {
   float: left;
   width: 45%;
   position: relative;
   padding: 4%;
 }
-/* line 282, ../../../components/sass/_modules.scss */
+/* line 308, ../../../components/sass/_modules.scss */
 section .banner-half .left .logo {
   position: absolute;
   opacity: .7;
@@ -971,87 +998,183 @@ section .banner-half .left .logo {
   right: -60px;
   top: 25%;
 }
-/* line 292, ../../../components/sass/_modules.scss */
+/* line 318, ../../../components/sass/_modules.scss */
 section .banner-half .right {
   float: right;
   height: 100%;
   width: 55%;
 }
-/* line 297, ../../../components/sass/_modules.scss */
+/* line 323, ../../../components/sass/_modules.scss */
 section .banner-half .right .half-img {
   width: 100%;
   max-width: 520px;
   display: block;
   float: right;
 }
-/* line 305, ../../../components/sass/_modules.scss */
+/* line 331, ../../../components/sass/_modules.scss */
 section .banner-half .caption-half {
   position: absolute;
   bottom: 8%;
   left: 4%;
   line-height: 130%;
 }
-/* line 314, ../../../components/sass/_modules.scss */
+@media (max-width: 767px) {
+  /* line 297, ../../../components/sass/_modules.scss */
+  section .banner-half {
+    overflow: hidden;
+  }
+  /* line 341, ../../../components/sass/_modules.scss */
+  section .banner-half .left {
+    float: none;
+    width: 100%;
+    position: relative;
+    padding: 4%;
+  }
+  /* line 347, ../../../components/sass/_modules.scss */
+  section .banner-half .left .logo {
+    position: absolute;
+    opacity: .7;
+    top: -20px;
+    right: 75px;
+    width: 23%;
+  }
+  /* line 357, ../../../components/sass/_modules.scss */
+  section .banner-half .right {
+    float: none;
+    width: 100%;
+  }
+  /* line 361, ../../../components/sass/_modules.scss */
+  section .banner-half .right .half-img {
+    width: 100%;
+    max-width: none;
+    display: block;
+    float: none;
+  }
+  /* line 369, ../../../components/sass/_modules.scss */
+  section .banner-half .caption-half {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 18px;
+    padding: 15px 0;
+    padding-left: 4%;
+    background-color: rgba(0, 23, 28, 0.75);
+  }
+  /* line 379, ../../../components/sass/_modules.scss */
+  section .banner-half .caption-half br {
+    display: none;
+  }
+}
+/* line 387, ../../../components/sass/_modules.scss */
 section#stepmom .banner {
   background-color: #ea3a2d;
 }
-/* line 317, ../../../components/sass/_modules.scss */
+/* line 390, ../../../components/sass/_modules.scss */
 section#stepmom .banner .description {
   width: 70%;
 }
-/* line 322, ../../../components/sass/_modules.scss */
+@media (max-width: 729px) {
+  /* line 390, ../../../components/sass/_modules.scss */
+  section#stepmom .banner .description {
+    width: 100%;
+  }
+}
+/* line 399, ../../../components/sass/_modules.scss */
 section#grandma .banner {
   background-color: #7a9ca5;
 }
-/* line 325, ../../../components/sass/_modules.scss */
+/* line 402, ../../../components/sass/_modules.scss */
 section#grandma .banner .description {
   width: 62%;
 }
-/* line 330, ../../../components/sass/_modules.scss */
+@media (max-width: 729px) {
+  /* line 402, ../../../components/sass/_modules.scss */
+  section#grandma .banner .description {
+    width: 100%;
+  }
+}
+/* line 411, ../../../components/sass/_modules.scss */
 section#legal .banner {
   background-color: #319b61;
 }
-/* line 333, ../../../components/sass/_modules.scss */
+/* line 414, ../../../components/sass/_modules.scss */
 section#legal .banner .description {
   width: 62%;
 }
-/* line 338, ../../../components/sass/_modules.scss */
+@media (max-width: 729px) {
+  /* line 414, ../../../components/sass/_modules.scss */
+  section#legal .banner .description {
+    width: 100%;
+  }
+}
+/* line 423, ../../../components/sass/_modules.scss */
 section#boomerang .banner {
   background-color: #d51831;
 }
-/* line 341, ../../../components/sass/_modules.scss */
+/* line 426, ../../../components/sass/_modules.scss */
 section#boomerang .banner .description {
   width: 62%;
 }
-/* line 346, ../../../components/sass/_modules.scss */
+@media (max-width: 729px) {
+  /* line 426, ../../../components/sass/_modules.scss */
+  section#boomerang .banner .description {
+    width: 100%;
+  }
+}
+/* line 435, ../../../components/sass/_modules.scss */
 section#mix .banner-half {
   background-color: #9a8aa4;
 }
-/* line 349, ../../../components/sass/_modules.scss */
+/* line 438, ../../../components/sass/_modules.scss */
 section#mix .banner-half .description {
   width: 65%;
 }
-/* line 354, ../../../components/sass/_modules.scss */
+@media (max-width: 729px) {
+  /* line 438, ../../../components/sass/_modules.scss */
+  section#mix .banner-half .description {
+    width: 100%;
+  }
+}
+/* line 447, ../../../components/sass/_modules.scss */
 section#two .banner-half {
   background-color: #40c5fd;
 }
-/* line 357, ../../../components/sass/_modules.scss */
+/* line 450, ../../../components/sass/_modules.scss */
 section#two .banner-half .description {
   width: 67%;
 }
-/* line 362, ../../../components/sass/_modules.scss */
+@media (max-width: 729px) {
+  /* line 450, ../../../components/sass/_modules.scss */
+  section#two .banner-half .description {
+    width: 100%;
+  }
+}
+/* line 459, ../../../components/sass/_modules.scss */
 section#two .banner-half .right .half-img {
   max-width: 490px;
 }
+@media (max-width: 767px) {
+  /* line 459, ../../../components/sass/_modules.scss */
+  section#two .banner-half .right .half-img {
+    max-width: none;
+  }
+}
+@media (max-width: 729px) {
+  /* line 471, ../../../components/sass/_modules.scss */
+  section .banner .logo, section .banner-half .logo {
+    display: none;
+  }
+}
 
-/* line 372, ../../../components/sass/_modules.scss */
+/* line 481, ../../../components/sass/_modules.scss */
 #stats {
-  width: 800px;
+  width: 787px;
   height: 230px;
   margin: 30px auto 50px 35px;
   overflow: hidden;
 }
-/* line 379, ../../../components/sass/_modules.scss */
+/* line 488, ../../../components/sass/_modules.scss */
 #stats #stat-desc {
   background-color: #000;
   width: 140px;
@@ -1061,25 +1184,25 @@ section#two .banner-half .right .half-img {
   margin-right: 40px;
   padding: 10px;
 }
-/* line 388, ../../../components/sass/_modules.scss */
+/* line 497, ../../../components/sass/_modules.scss */
 #stats #stat-desc h3 {
   font-family: "NotoSans-Regular", sans-serif;
   font-size: 24px;
   text-transform: uppercase;
 }
-/* line 394, ../../../components/sass/_modules.scss */
+/* line 503, ../../../components/sass/_modules.scss */
 #stats #stat-desc h4 {
   font-family: "Heuristica-BoldItalic", serif;
   font-size: 19px;
   margin-bottom: 20px;
 }
-/* line 401, ../../../components/sass/_modules.scss */
+/* line 510, ../../../components/sass/_modules.scss */
 #stats #stat-desc p {
   font-family: "NotoSans-Bold", sans-serif;
   font-size: 12px;
   line-height: 1.3em;
 }
-/* line 407, ../../../components/sass/_modules.scss */
+/* line 516, ../../../components/sass/_modules.scss */
 #stats #stat-desc:after {
   content: '';
   display: block;
@@ -1091,12 +1214,12 @@ section#two .banner-half .right .half-img {
   border-bottom: 115px solid transparent;
   border-left: 40px solid #000;
 }
-/* line 420, ../../../components/sass/_modules.scss */
+/* line 529, ../../../components/sass/_modules.scss */
 #stats #chart {
   float: left;
   width: 600px;
 }
-/* line 424, ../../../components/sass/_modules.scss */
+/* line 533, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair {
   width: 141px;
   padding: 0 2px;
@@ -1104,11 +1227,11 @@ section#two .banner-half .right .half-img {
   position: relative;
   float: left;
 }
-/* line 431, ../../../components/sass/_modules.scss */
+/* line 540, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair.last {
   border-right: none;
 }
-/* line 435, ../../../components/sass/_modules.scss */
+/* line 544, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .pair-desc {
   height: 48px;
   font-family: "NotoSans-Bold", sans-serif;
@@ -1119,26 +1242,26 @@ section#two .banner-half .right .half-img {
   position: absolute;
   top: 91px;
 }
-/* line 446, ../../../components/sass/_modules.scss */
+/* line 555, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .old, #stats #chart .stat-pair .new {
   margin: 0 auto;
 }
-/* line 450, ../../../components/sass/_modules.scss */
+/* line 559, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .new {
   margin-top: 48px;
 }
-/* line 454, ../../../components/sass/_modules.scss */
+/* line 563, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay {
   font-family: "NotoSans-Bold", sans-serif;
 }
-/* line 456, ../../../components/sass/_modules.scss */
+/* line 565, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay .percent {
   font-size: 38px;
   color: #8d1b1f;
   margin-top: 23px;
   margin-left: -5px;
 }
-/* line 462, ../../../components/sass/_modules.scss */
+/* line 571, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay .percent .percent-sign {
   font-size: 16px;
   margin-top: 5px;
@@ -1146,7 +1269,7 @@ section#two .banner-half .right .half-img {
   margin-right: 4px;
   float: right;
 }
-/* line 471, ../../../components/sass/_modules.scss */
+/* line 580, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay .year {
   font-size: 14px;
   color: #435E89;
@@ -1154,19 +1277,19 @@ section#two .banner-half .right .half-img {
   top: 10px;
   width: 100%;
 }
-/* line 481, ../../../components/sass/_modules.scss */
+/* line 591, ../../../components/sass/_modules.scss */
 #stats #chart #blocks {
   float: right;
   width: 28px;
   height: 230px;
 }
-/* line 486, ../../../components/sass/_modules.scss */
+/* line 596, ../../../components/sass/_modules.scss */
 #stats #chart #blocks .block {
   width: 28px;
   height: 88px;
   margin-top: 17px;
 }
-/* line 491, ../../../components/sass/_modules.scss */
+/* line 601, ../../../components/sass/_modules.scss */
 #stats #chart #blocks .block .block-text {
   font-family: "NotoSans-Regular", sans-serif;
   font-size: 18px;
@@ -1182,4 +1305,117 @@ section#two .banner-half .right .half-img {
   -webkit-transform: rotate(-90deg);
   margin-left: -38px;
   margin-top: 38px;
+}
+@media (max-width: 821px) {
+  /* line 481, ../../../components/sass/_modules.scss */
+  #stats {
+    width: 250px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    overflow: visible;
+  }
+  /* line 629, ../../../components/sass/_modules.scss */
+  #stats #stat-desc {
+    position: absolute;
+    left: calc( (100% - 250px) /2 - 190px);
+    top: 148px;
+  }
+  /* line 635, ../../../components/sass/_modules.scss */
+  #stats #chart {
+    width: 250px;
+    float: none;
+    margin: 0 auto;
+  }
+  /* line 640, ../../../components/sass/_modules.scss */
+  #stats #chart .stat-pair {
+    width: 250px;
+    float: none;
+    border-right: none;
+    border-bottom: 2px solid #000;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  /* line 648, ../../../components/sass/_modules.scss */
+  #stats #chart .stat-pair.last {
+    border-bottom: none;
+  }
+  /* line 652, ../../../components/sass/_modules.scss */
+  #stats #chart .stat-pair .pair-desc {
+    position: relative;
+    top: 0;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  /* line 659, ../../../components/sass/_modules.scss */
+  #stats #chart .stat-pair .old, #stats #chart .stat-pair .new {
+    display: inline-block;
+  }
+  /* line 663, ../../../components/sass/_modules.scss */
+  #stats #chart .stat-pair .old {
+    margin-right: 24px;
+    margin-left: 21px;
+  }
+  /* line 668, ../../../components/sass/_modules.scss */
+  #stats #chart .stat-pair .new {
+    margin-top: 0;
+  }
+  /* line 674, ../../../components/sass/_modules.scss */
+  #stats #chart #blocks {
+    float: none;
+    width: 250px;
+    height: 28px;
+  }
+  /* line 679, ../../../components/sass/_modules.scss */
+  #stats #chart #blocks .block {
+    width: 104px;
+    height: 28px;
+    margin-top: 0;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+  }
+  /* line 687, ../../../components/sass/_modules.scss */
+  #stats #chart #blocks .block.second {
+    float: right;
+    margin-right: 10px;
+  }
+  /* line 692, ../../../components/sass/_modules.scss */
+  #stats #chart #blocks .block .block-text {
+    width: 104px;
+    height: 28px;
+    transform: initial;
+    -ms-transform: initial;
+    -webkit-transform: initial;
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+@media (max-width: 628px) {
+  /* line 481, ../../../components/sass/_modules.scss */
+  #stats {
+    height: 800px;
+  }
+  /* line 712, ../../../components/sass/_modules.scss */
+  #stats #stat-desc {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-right: 0;
+  }
+  /* line 721, ../../../components/sass/_modules.scss */
+  #stats #stat-desc:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 40px solid #000;
+    border-right: 125px solid transparent;
+    border-left: 125px solid transparent;
+    margin-top: 17px;
+    margin-left: -10px;
+  }
 }
