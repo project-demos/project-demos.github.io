@@ -312,7 +312,7 @@ html {
   font-family: "alfa_slab_oneregular";
   font-size: 21px;
   text-align: center;
-  line-height: 2.2em;
+  padding: 13px;
   margin-top: 40px;
 }
 /* line 197, ../../../components/sass/_modules.scss */
@@ -563,12 +563,12 @@ html {
   width: 58%;
   left: 24%;
   position: absolute;
-  bottom: 4%;
+  bottom: 3%;
   background-color: #e3dddb;
   font-family: "alfa_slab_oneregular";
-  font-size: 30px;
+  font-size: 29px;
   text-align: center;
-  line-height: 2em;
+  padding: 15px;
 }
 /* line 461, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #content-title .name-highlight {
