@@ -15,6 +15,6 @@
 	c9.3-9.3,37.1-22.9,61.8-36.5c4.9-2.5,18.5-13.6,21-19.2c3.7-7.4,1.9-27.8,0-40.8c-5.6-39.6-11.7-83.5-15.5-115.6
 	c-6.2-56.9-9.3-106.3-9.9-163.2c-1.2-96.4,9.3-176.2,27.8-252.9c6.8-27.2,16.7-52.6,17.3-77.9c0.6-21.6-2.5-30.3-13.6-42.7
 	C506.2-1.9,487.7,0,480.3,1.2z"/>
-<text transform="matrix(4.489660e-11 -0.9418 1 4.228227e-11 268.5805 794)" fill="#FE3D02" font-family="'AlfaSlabOne-Regular'" font-size="121.159">Stomp</text>
-<text transform="matrix(4.489660e-11 -0.9418 1 4.228227e-11 400.1709 794)" fill="#FE3D02" font-family="'AlfaSlabOne-Regular'" font-size="121.159">Delirium!</text>
+<text transform="matrix(4.489660e-11 -0.9418 1 4.228227e-11 268.5805 794)" fill="#FE3D02" font-family="'AlfaSlabOne-Regular', 'alfa_slab_oneregular'" font-size="121.159">Stomp</text>
+<text transform="matrix(4.489660e-11 -0.9418 1 4.228227e-11 400.1709 794)" fill="#FE3D02" font-family="'AlfaSlabOne-Regular', 'alfa_slab_oneregular'" font-size="121.159">Delirium!</text>
 </svg>
