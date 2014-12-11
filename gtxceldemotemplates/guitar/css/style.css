@@ -299,13 +299,17 @@ html {
     left: 10px;
     width: calc(100% - 20px);
   }
+  /* line 176, ../../../components/sass/_modules.scss */
+  #pedals .pedal:nth-child(2n) {
+    float: none;
+  }
 }
 
-/* line 181, ../../../components/sass/_modules.scss */
+/* line 185, ../../../components/sass/_modules.scss */
 .pedal-section {
   display: none;
 }
-/* line 184, ../../../components/sass/_modules.scss */
+/* line 188, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-name {
   width: 100%;
   background-color: #e3dddb;
@@ -315,16 +319,16 @@ html {
   line-height: 2.2em;
   margin-top: 40px;
 }
-/* line 193, ../../../components/sass/_modules.scss */
+/* line 197, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-name .name-highlight {
   color: #fe3d02;
   text-transform: uppercase;
 }
-/* line 200, ../../../components/sass/_modules.scss */
+/* line 204, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-review-container {
   position: relative;
 }
-/* line 204, ../../../components/sass/_modules.scss */
+/* line 208, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-review {
   width: 90%;
   margin: 20px auto;
@@ -332,79 +336,79 @@ html {
   overflow: scroll;
   overflow-x: hidden;
 }
-/* line 213, ../../../components/sass/_modules.scss */
+/* line 217, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-review .pedal-large {
   display: block;
   margin: 20px auto 0 auto;
 }
-/* line 219, ../../../components/sass/_modules.scss */
+/* line 223, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-review .pedal-info {
   font-family: "pt_sansregular";
   font-size: 17px;
   line-height: 1.3em;
 }
-/* line 224, ../../../components/sass/_modules.scss */
+/* line 228, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-review .pedal-info h2 {
   font-size: 18px;
   font-family: "alfa_slab_oneregular";
   margin-top: 1em;
   margin-bottom: .25em;
 }
-/* line 231, ../../../components/sass/_modules.scss */
+/* line 235, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-review .pedal-info p {
   margin-bottom: .75em;
 }
-/* line 238, ../../../components/sass/_modules.scss */
+/* line 242, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-vid {
   margin-top: 50px;
 }
-/* line 240, ../../../components/sass/_modules.scss */
+/* line 244, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-vid video {
   width: 100%;
 }
-/* line 247, ../../../components/sass/_modules.scss */
+/* line 251, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-rating {
   width: 90%;
   margin: 20px auto;
 }
-/* line 252, ../../../components/sass/_modules.scss */
+/* line 256, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-rating .rating-row h3 {
   font-size: 24px;
   font-family: "alfa_slab_oneregular";
 }
-/* line 257, ../../../components/sass/_modules.scss */
+/* line 261, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-rating .rating-row p {
   font-family: "pt_sansbold";
   font-size: 17px;
   line-height: 1.1em;
   margin-bottom: 15px;
 }
-/* line 263, ../../../components/sass/_modules.scss */
+/* line 267, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-rating .rating-row p.rating-images {
   margin-bottom: 8px;
 }
-/* line 269, ../../../components/sass/_modules.scss */
+/* line 273, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-rating .rating-info {
   margin: 25px auto;
 }
-/* line 272, ../../../components/sass/_modules.scss */
+/* line 276, ../../../components/sass/_modules.scss */
 .pedal-section .pedal-rating .rating-info p {
   font-family: "pt_sansbold";
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-/* line 283, ../../../components/sass/_modules.scss */
+/* line 287, ../../../components/sass/_modules.scss */
 #guitar-full-container {
   position: relative;
 }
-/* line 286, ../../../components/sass/_modules.scss */
+/* line 290, ../../../components/sass/_modules.scss */
 #guitar-full-container #guitar-full {
   width: 100%;
   position: relative;
   z-index: -1;
 }
-/* line 292, ../../../components/sass/_modules.scss */
+/* line 296, ../../../components/sass/_modules.scss */
 #guitar-full-container #red {
   background-color: #fe3d02;
   position: absolute;
@@ -414,7 +418,7 @@ html {
   left: 0;
   z-index: -2;
 }
-/* line 302, ../../../components/sass/_modules.scss */
+/* line 306, ../../../components/sass/_modules.scss */
 #guitar-full-container #buttons {
   position: absolute;
   width: 130px;
@@ -422,13 +426,13 @@ html {
   left: 4%;
   bottom: 6.5%;
 }
-/* line 309, ../../../components/sass/_modules.scss */
+/* line 313, ../../../components/sass/_modules.scss */
 #guitar-full-container #buttons .button {
   position: relative;
   width: 75px;
   height: 79px;
 }
-/* line 314, ../../../components/sass/_modules.scss */
+/* line 318, ../../../components/sass/_modules.scss */
 #guitar-full-container #buttons .button .btn-text {
   position: absolute;
   top: 24px;
@@ -443,27 +447,27 @@ html {
   -webkit-transition: -webkit-transform 0.7s ease-in-out;
   transition: transform 0.7s ease-in-out;
 }
-/* line 330, ../../../components/sass/_modules.scss */
+/* line 334, ../../../components/sass/_modules.scss */
 #guitar-full-container #buttons .button.active .btn-text {
   transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
 }
-/* line 337, ../../../components/sass/_modules.scss */
+/* line 341, ../../../components/sass/_modules.scss */
 #guitar-full-container #buttons .button.btn-review {
   margin-left: 30px;
 }
-/* line 341, ../../../components/sass/_modules.scss */
+/* line 345, ../../../components/sass/_modules.scss */
 #guitar-full-container #buttons .button.btn-vid {
   margin-top: 22px;
   margin-left: 10px;
 }
-/* line 346, ../../../components/sass/_modules.scss */
+/* line 350, ../../../components/sass/_modules.scss */
 #guitar-full-container #buttons .button.btn-rating {
   margin-top: 22px;
   margin-left: 40px;
 }
-/* line 354, ../../../components/sass/_modules.scss */
+/* line 358, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view {
   width: 58%;
   height: 22%;
@@ -473,43 +477,43 @@ html {
   overflow: scroll;
   overflow-x: hidden;
 }
-/* line 366, ../../../components/sass/_modules.scss */
+/* line 370, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view #content-review .pedal-large {
   float: left;
   margin-right: -8px;
 }
-/* line 371, ../../../components/sass/_modules.scss */
+/* line 375, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view #content-review .pedal-info {
   font-family: "pt_sansregular";
   font-size: 17px;
   line-height: 1.3em;
 }
-/* line 376, ../../../components/sass/_modules.scss */
+/* line 380, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view #content-review .pedal-info h2 {
   font-size: 18px;
   font-family: "alfa_slab_oneregular";
   margin-top: 1em;
   margin-bottom: .25em;
 }
-/* line 383, ../../../components/sass/_modules.scss */
+/* line 387, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view #content-review .pedal-info p {
   margin-bottom: .75em;
 }
-/* line 389, ../../../components/sass/_modules.scss */
+/* line 393, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view #content-vid {
   width: 100%;
 }
-/* line 391, ../../../components/sass/_modules.scss */
+/* line 395, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view #content-vid video {
   width: 100%;
   display: block;
   margin: 75px auto 0 auto;
 }
-/* line 398, ../../../components/sass/_modules.scss */
+/* line 402, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view #content-rating {
   margin-top: 80px;
 }
-/* line 401, ../../../components/sass/_modules.scss */
+/* line 405, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view #content-rating .rating-row {
   margin-bottom: 15px;
 }
@@ -522,7 +526,7 @@ html {
 #guitar-full-container #content-space #main-view #content-rating .rating-row:after {
   clear: both;
 }
-/* line 405, ../../../components/sass/_modules.scss */
+/* line 409, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view #content-rating .rating-row h3 {
   font-size: 24px;
   font-family: "alfa_slab_oneregular";
@@ -533,32 +537,32 @@ html {
   margin-top: 3px;
   clear: both;
 }
-/* line 416, ../../../components/sass/_modules.scss */
+/* line 420, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view #content-rating .rating-row p {
   font-family: "pt_sansbold";
   font-size: 17px;
   line-height: 1.1em;
   margin-left: 195px;
 }
-/* line 422, ../../../components/sass/_modules.scss */
+/* line 426, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view #content-rating .rating-row p.short-con {
   margin-top: 8px;
 }
-/* line 426, ../../../components/sass/_modules.scss */
+/* line 430, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view #content-rating .rating-row p.rating-images {
   margin-bottom: 8px;
 }
-/* line 432, ../../../components/sass/_modules.scss */
+/* line 436, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view #content-rating .rating-info {
   margin: 25px auto 0 195px;
 }
-/* line 435, ../../../components/sass/_modules.scss */
+/* line 439, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #main-view #content-rating .rating-info p {
   font-family: "pt_sansbold";
   font-size: 20px;
   margin-bottom: 10px;
 }
-/* line 444, ../../../components/sass/_modules.scss */
+/* line 448, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #content-title {
   width: 58%;
   left: 24%;
@@ -570,13 +574,13 @@ html {
   text-align: center;
   line-height: 2em;
 }
-/* line 457, ../../../components/sass/_modules.scss */
+/* line 461, ../../../components/sass/_modules.scss */
 #guitar-full-container #content-space #content-title .name-highlight {
   color: #fe3d02;
   text-transform: uppercase;
 }
 
-/* line 466, ../../../components/sass/_modules.scss */
+/* line 470, ../../../components/sass/_modules.scss */
 .scroll-arrow {
   position: absolute;
   bottom: 5px;
@@ -586,7 +590,7 @@ html {
   opacity: .85;
 }
 @media (min-width: 768px) {
-  /* line 466, ../../../components/sass/_modules.scss */
+  /* line 470, ../../../components/sass/_modules.scss */
   .scroll-arrow {
     bottom: 7.15%;
     left: 53%;
@@ -595,12 +599,12 @@ html {
   }
 }
 
-/* line 483, ../../../components/sass/_modules.scss */
+/* line 487, ../../../components/sass/_modules.scss */
 #daredevil-nova {
   display: block;
 }
 
-/* line 488, ../../../components/sass/_modules.scss */
+/* line 492, ../../../components/sass/_modules.scss */
 .menu-back {
   display: block;
   width: 100%;
