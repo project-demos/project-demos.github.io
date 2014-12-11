@@ -288,7 +288,7 @@ html {
   /* line 161, ../../../components/sass/_modules.scss */
   #pedals .pedal {
     width: 16.2%;
-    float: none;
+    float: left;
   }
   /* line 165, ../../../components/sass/_modules.scss */
   #pedals .pedal .pedal-name {
@@ -298,10 +298,6 @@ html {
   #pedals .pedal.selected .selection-highlight {
     left: 10px;
     width: calc(100% - 20px);
-  }
-  /* line 176, ../../../components/sass/_modules.scss */
-  #pedals .pedal:nth-child(2n) {
-    float: none;
   }
 }
 
