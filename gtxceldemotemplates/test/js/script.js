@@ -25,11 +25,11 @@ $( document ).ready(function() {
 	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onEnter", duration: $(window).height()*2}});
 
 	new ScrollScene({triggerElement: "#slide1"})
-		.setTween(TweenMax.from("#slide1 > img", 1, {y: "-60%", ease: Linear.easeNone}))
+		.setTween(TweenMax.from("#slide1 > img", 1, {top: "-70%", ease: Linear.easeNone}))
 		.addTo(controller);
 
 	new ScrollScene({triggerElement: "#slide2"})
-		.setTween(TweenMax.from("#slide2 > img", 1, {top: "-60%", ease: Linear.easeNone}))
+		.setTween(TweenMax.from("#slide2 > img", 1, {top: "-70%", ease: Linear.easeNone}))
 		.addTo(controller);
 
 });
