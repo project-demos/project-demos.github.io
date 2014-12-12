@@ -140,7 +140,7 @@ section.slide img {
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 150px;
+  margin-top: 140px;
   z-index: -1;
 }
 
@@ -154,13 +154,25 @@ section.text {
   line-height: 1.7em;
 }
 
-/* line 92, ../../../components/sass/_modules.scss */
+/* line 88, ../../../components/sass/_modules.scss */
+section.banner {
+  background-color: #7a9ca5;
+  padding: 3%;
+  font-size: 3em;
+  color: #731c15;
+  font-family: serif;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: -15px;
+}
+
+/* line 103, ../../../components/sass/_modules.scss */
 footer {
   padding: 10%;
   background-color: #efefef;
 }
 
-/* line 97, ../../../components/sass/_modules.scss */
+/* line 108, ../../../components/sass/_modules.scss */
 h1 {
   font-size: 5em;
 }
