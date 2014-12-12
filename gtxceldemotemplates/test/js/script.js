@@ -2,11 +2,19 @@
 $( document ).ready(function() {
 
 	new ScrollScene({triggerElement: "#slide1"})
-		.setTween(TweenMax.from("#slide1 > img", 1, {top: "-70%", ease: Linear.easeNone}))
+		.setTween(TweenMax.fromTo("#slide1 > .slider", 1, 
+			{bottom: "0"},
+			{bottom: "164%", ease: Linear.easeNone}))
 		.addTo(controller);
 
 	new ScrollScene({triggerElement: "#slide2"})
 		.setTween(TweenMax.from("#slide2 > img", 1, {top: "-70%", ease: Linear.easeNone}))
+		.addTo(controller);
+
+	new ScrollScene({triggerElement: "#slide2"})
+		.setTween(TweenMax.fromTo("#slide2 > p", 1, 
+			{bottom: "-20%"},
+			{bottom: "40%", ease: Linear.easeNone}))
 		.addTo(controller);
 
 });

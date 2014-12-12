@@ -177,8 +177,35 @@ section.slide img {
   margin-top: 125px;
   z-index: -1;
 }
+/* line 114, ../../../components/sass/_modules.scss */
+section.slide .slider {
+  position: relative;
+}
+/* line 118, ../../../components/sass/_modules.scss */
+section.slide .slider img {
+  position: relative;
+  width: 100%;
+  margin-top: 0;
+}
+/* line 124, ../../../components/sass/_modules.scss */
+section.slide .slider .caption {
+  position: relative;
+  margin-top: -3px;
+  background-color: #440b07;
+}
+/* line 130, ../../../components/sass/_modules.scss */
+section.slide .slider p {
+  position: relative;
+  width: 80%;
+  max-width: initial;
+  position: relative;
+  margin: 10px auto;
+  left: 0;
+  background-color: #eee;
+  color: #222;
+}
 
-/* line 115, ../../../components/sass/_modules.scss */
+/* line 143, ../../../components/sass/_modules.scss */
 section.text {
   padding: 10%;
   background-color: #fff;
@@ -188,7 +215,7 @@ section.text {
   line-height: 1.7em;
 }
 
-/* line 124, ../../../components/sass/_modules.scss */
+/* line 152, ../../../components/sass/_modules.scss */
 section.banner {
   background-color: #7a9ca5;
   padding: 3%;
@@ -199,14 +226,27 @@ section.banner {
   font-weight: bold;
   margin-bottom: -15px;
 }
+/* line 162, ../../../components/sass/_modules.scss */
+section.banner.two {
+  background-color: #ea3a2d;
+}
 
-/* line 139, ../../../components/sass/_modules.scss */
+/* line 167, ../../../components/sass/_modules.scss */
+.caption2 {
+  width: 100%;
+  background-color: #212e32;
+  line-height: 2em;
+  padding-left: 3%;
+  color: #fff;
+}
+
+/* line 179, ../../../components/sass/_modules.scss */
 footer {
   padding: 10%;
   background-color: #efefef;
 }
 
-/* line 144, ../../../components/sass/_modules.scss */
+/* line 184, ../../../components/sass/_modules.scss */
 h1 {
   font-size: 5em;
 }
