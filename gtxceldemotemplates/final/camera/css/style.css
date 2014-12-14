@@ -1,0 +1,497 @@
+/* line 5, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'norwesterregular';
+  src: url("fonts/norwester-webfont.eot");
+  src: url("fonts/norwester-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/norwester-webfont.woff2") format("woff2"), url("fonts/norwester-webfont.woff") format("woff"), url("fonts/norwester-webfont.ttf") format("truetype"), url("fonts/norwester-webfont.svg#norwesterregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'noto_sansregular';
+  src: url("fonts/notosans-regular-webfont.eot");
+  src: url("fonts/notosans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/notosans-regular-webfont.woff2") format("woff2"), url("fonts/notosans-regular-webfont.woff") format("woff"), url("fonts/notosans-regular-webfont.ttf") format("truetype"), url("fonts/notosans-regular-webfont.svg#noto_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'porter_sans_blockblock';
+  src: url("fonts/porter-sans-inline-block-webfont.eot");
+  src: url("fonts/porter-sans-inline-block-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/porter-sans-inline-block-webfont.woff2") format("woff2"), url("fonts/porter-sans-inline-block-webfont.woff") format("woff"), url("fonts/porter-sans-inline-block-webfont.ttf") format("truetype"), url("fonts/porter-sans-inline-block-webfont.svg#porter_sans_blockblock") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 14, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* entire container, keeps perspective */
+/* line 2, ../../../components/sass/_flip.scss */
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+}
+
+/* line 9, ../../../components/sass/_flip.scss */
+.flip-container.hover .flipper, .flip-container.flip .flipper {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+/* line 16, ../../../components/sass/_flip.scss */
+.flip-container, .front, .back {
+  /*width: 320px;
+  height: 480px;*/
+}
+
+/* flip speed goes here */
+/* line 22, ../../../components/sass/_flip.scss */
+.flipper {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+  -o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+  -ms-transition: 0.6s;
+  -ms-transform-style: preserve-3d;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+/* line 43, ../../../components/sass/_flip.scss */
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /*position: absolute;
+  top: 0;
+  left: 0;*/
+}
+
+/* front pane, placed above back */
+/* line 55, ../../../components/sass/_flip.scss */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+/* line 66, ../../../components/sass/_flip.scss */
+.back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 1, ../../../components/sass/_base.scss */
+article#wrapper {
+  -webkit-text-size-adjust: 100%;
+  width: 100%;
+  padding-top: 0;
+  max-width: initial;
+  color: #313030;
+  font-family: "noto_sansregular";
+  -webkit-tap-highlight-color: transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 12, ../../../components/sass/_base.scss */
+h1, h2 {
+  font-family: "norwesterregular";
+}
+
+/* line 3, ../../../components/sass/_modules.scss */
+header {
+  position: relative;
+}
+/* line 6, ../../../components/sass/_modules.scss */
+header #number {
+  position: relative;
+  width: 449px;
+  margin: 0 auto;
+}
+/* line 11, ../../../components/sass/_modules.scss */
+header #number #byline {
+  color: #fff;
+  position: absolute;
+  top: 80px;
+  text-align: center;
+  left: 55px;
+  font-family: "norwesterregular";
+}
+/* line 20, ../../../components/sass/_modules.scss */
+header #number #seven {
+  color: #a6cbc0;
+  font-size: 500px;
+  font-family: "porter_sans_blockblock";
+  text-align: center;
+}
+/* line 28, ../../../components/sass/_modules.scss */
+header h1 {
+  color: #000;
+  font-size: 60px;
+  width: 465px;
+  position: absolute;
+  top: 210px;
+  left: 50%;
+  margin-left: -256px;
+}
+@media (max-width: 959px) {
+  /* line 39, ../../../components/sass/_modules.scss */
+  header #number {
+    width: 355px;
+  }
+  /* line 42, ../../../components/sass/_modules.scss */
+  header #number #byline {
+    top: 61px;
+    left: 43px;
+    font-size: 18px;
+  }
+  /* line 48, ../../../components/sass/_modules.scss */
+  header #number #seven {
+    font-size: 400px;
+  }
+  /* line 53, ../../../components/sass/_modules.scss */
+  header h1 {
+    font-size: 42px;
+    width: 328px;
+    top: 186px;
+    margin-left: -175px;
+  }
+}
+@media (max-width: 699px) {
+  /* line 63, ../../../components/sass/_modules.scss */
+  header #number {
+    width: 234px;
+  }
+  /* line 66, ../../../components/sass/_modules.scss */
+  header #number #byline {
+    top: 40px;
+    left: 28px;
+    font-size: 13px;
+  }
+  /* line 72, ../../../components/sass/_modules.scss */
+  header #number #seven {
+    font-size: 264px;
+  }
+  /* line 77, ../../../components/sass/_modules.scss */
+  header h1 {
+    font-size: 30px;
+    width: 234px;
+    top: 115px;
+    margin-left: -126px;
+  }
+}
+
+/* line 88, ../../../components/sass/_modules.scss */
+article {
+  width: 66.53386%;
+  margin: 0 auto;
+  padding-top: 55px;
+  max-width: 739.2px;
+}
+@media (max-width: 769px) {
+  /* line 88, ../../../components/sass/_modules.scss */
+  article {
+    width: 83.26693%;
+  }
+}
+@media (max-width: 699px) {
+  /* line 88, ../../../components/sass/_modules.scss */
+  article {
+    width: 91.63347%;
+  }
+}
+/* line 103, ../../../components/sass/_modules.scss */
+article p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+/* line 108, ../../../components/sass/_modules.scss */
+article p .first-letter {
+  color: #ce0d0d;
+  font-family: "porter_sans_blockblock";
+  font-size: 150px;
+  display: block;
+  float: left;
+  margin-top: -113px;
+  height: 131px;
+  line-height: 138px;
+}
+
+/* line 121, ../../../components/sass/_modules.scss */
+.instructions {
+  text-align: center;
+  color: #ce0d0d;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 60px auto 20px auto;
+}
+
+@media (max-width: 699px) {
+  /* line 130, ../../../components/sass/_modules.scss */
+  article {
+    padding-top: 25px;
+  }
+  /* line 132, ../../../components/sass/_modules.scss */
+  article p .first-letter {
+    font-size: 75px;
+    margin-top: -50px;
+    height: 69px;
+    line-height: 75px;
+  }
+}
+/* line 143, ../../../components/sass/_modules.scss */
+.items {
+  width: 83.26693%;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 924px;
+}
+@media (max-width: 699px) {
+  /* line 143, ../../../components/sass/_modules.scss */
+  .items {
+    width: 91.63347%;
+  }
+}
+/* line 12, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+.items:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 151, ../../../components/sass/_modules.scss */
+.items .item {
+  width: 48.78049%;
+  float: right;
+  height: auto;
+  margin-bottom: 2.5%;
+  position: relative;
+  cursor: pointer;
+}
+/* line 160, ../../../components/sass/_modules.scss */
+.items .item .flip-container, .items .item .front, .items .item .back {
+  width: 100%;
+  float: left;
+  height: auto;
+}
+/* line 165, ../../../components/sass/_modules.scss */
+.items .item img.full-bg {
+  width: 100%;
+}
+/* line 169, ../../../components/sass/_modules.scss */
+.items .item h2 {
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  color: #ce0d0d;
+  font-size: 24px;
+}
+/* line 177, ../../../components/sass/_modules.scss */
+.items .item .front {
+  background: url("../img/item-bg.png") #66a7a0;
+  background-size: 100%;
+}
+/* line 181, ../../../components/sass/_modules.scss */
+.items .item .front .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 5;
+  display: none;
+}
+/* line 193, ../../../components/sass/_modules.scss */
+.items .item .back img.flip-img {
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  width: 6%;
+}
+/* line 200, ../../../components/sass/_modules.scss */
+.items .item .back .review {
+  position: absolute;
+  width: 84%;
+  height: 75%;
+  top: 17%;
+  left: 8%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+/* line 210, ../../../components/sass/_modules.scss */
+.items .item .back .review p {
+  color: #313030;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+/* line 218, ../../../components/sass/_modules.scss */
+.items .item .back img.arrow {
+  display: block;
+  position: absolute;
+  bottom: 9%;
+  left: 47%;
+  width: 6%;
+  opacity: .8;
+  max-width: 44px;
+}
+@media (min-width: 700px) {
+  /* line 230, ../../../components/sass/_modules.scss */
+  .items .item:nth-child(2n) {
+    width: 48.78049%;
+    float: left;
+  }
+}
+@media (max-width: 699px) {
+  /* line 151, ../../../components/sass/_modules.scss */
+  .items .item {
+    width: 100%;
+    float: right;
+  }
+  /* line 238, ../../../components/sass/_modules.scss */
+  .items .item h2 {
+    top: 6%;
+    left: 6%;
+  }
+  /* line 244, ../../../components/sass/_modules.scss */
+  .items .item .back .review {
+    width: 88%;
+    left: 6%;
+  }
+}
+/* line 251, ../../../components/sass/_modules.scss */
+.items .item.big {
+  width: 100%;
+  float: left;
+  max-width: none;
+}
+/* line 255, ../../../components/sass/_modules.scss */
+.items .item.big h2 {
+  font-size: 36px;
+  top: 4%;
+  left: 4%;
+}
+@media (max-width: 699px) {
+  /* line 255, ../../../components/sass/_modules.scss */
+  .items .item.big h2 {
+    top: 6%;
+    left: 6%;
+  }
+}
+/* line 266, ../../../components/sass/_modules.scss */
+.items .item.big .front {
+  background: url("../img/item-bg-big.png") #66a7a0;
+}
+/* line 271, ../../../components/sass/_modules.scss */
+.items .item.big .back img.flip-img {
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  width: 3%;
+}
+@media (max-width: 699px) {
+  /* line 271, ../../../components/sass/_modules.scss */
+  .items .item.big .back img.flip-img {
+    width: 6%;
+    right: 4%;
+    top: 4%;
+  }
+}
+/* line 285, ../../../components/sass/_modules.scss */
+.items .item.big .back .review {
+  width: 92%;
+  left: 4%;
+}
+@media (min-width: 769px) {
+  /* line 290, ../../../components/sass/_modules.scss */
+  .items .item.big .back .review p {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 15px;
+  }
+}
