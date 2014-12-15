@@ -72,10 +72,12 @@ function redrawNeck(){
 	if (introHeight > max){
 		top.css('margin-bottom', introHeight-700 + 'px');
 		$('#guitar-full-container #red').css('height', '88%');
+		$('#intro').css('top', '15%');
 	}
 	else{
 		top.css('margin-bottom', '0px');
 		$('#guitar-full-container #red').css('height', '86%');
+		$('#intro').css('top', '17%');
 	}
 
 }
