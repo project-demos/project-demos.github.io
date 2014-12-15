@@ -54,5 +54,16 @@
 
 
 </article>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script>
+	$(window).scroll(function() {
+		var scrollTop     = $(window).scrollTop(),
+		    elementOffset = $('#fixed1').offset().top,
+		    distance      = (elementOffset - scrollTop);
+		//console.log(distance);
+		$('#fixed1').css('background-position-y',  (-1 * distance) + 'px');
+	});
+</script>
+
 </body>
 </html>
