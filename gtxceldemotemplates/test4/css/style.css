@@ -8,6 +8,13 @@ body, html{
 	height: 100%;
 }
 
+h2{
+	font-size: 68px;
+	width: 100%;
+	margin: 20px auto 50px auto;
+	text-align: center;
+}
+
 #wrapper{
 	font-family: Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	width: 100%;
@@ -59,6 +66,8 @@ body, html{
 .overlay-container{
 	height: 0;
 	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 .overlay{
@@ -86,14 +95,18 @@ p.description{
 .scroll-content{
 	background-color: #fff;
 	box-sizing: border-box;
-	padding: 5% 0;
+	padding: 3% 0;
 	overflow: hidden;
 	width: 100%;
 	position: relative;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 .scroll-content p{
 	width: 60%;
+	min-width: 300px;
 	margin: 0 auto 1em auto;
 	line-height: 150%;
+	text-indent: 1em;
 }
