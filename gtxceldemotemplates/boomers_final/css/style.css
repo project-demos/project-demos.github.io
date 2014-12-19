@@ -1,4 +1,3 @@
-/* line 5, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +19,37 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -117,21 +108,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-stretch: normal;
   unicode-range: U+0020-2212;
 }
-/* line 14, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_box-sizing.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 1, ../../../components/sass/_base.scss */
 article {
   -webkit-text-size-adjust: 100%;
   width: 100%;
   color: #231f20;
 }
 
-/* line 6, ../../../components/sass/_animations.scss */
 .old, .new {
   width: 91px;
   height: 91px;
@@ -143,7 +131,6 @@ article {
 /* -------------------------------------
  * Bar container
  * ------------------------------------- */
-/* line 17, ../../../components/sass/_animations.scss */
 .progress-radial {
   box-sizing: content-box;
   float: left;
@@ -159,7 +146,6 @@ article {
 /* -------------------------------------
  * Optional centered circle w/text
  * ------------------------------------- */
-/* line 32, ../../../components/sass/_animations.scss */
 .old .overlay, .new .overlay {
   position: absolute;
   width: 69px;
@@ -175,524 +161,420 @@ article {
 /* -------------------------------------
  * Mixin for progress-% class
  * ------------------------------------- */
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-0 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(90deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-1 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(93.6deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-2 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(97.2deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-3 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(100.8deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-4 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(104.4deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-5 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(108deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-6 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(111.6deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-7 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(115.2deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-8 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(118.8deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-9 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(122.4deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-10 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(126deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-11 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(129.6deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-12 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(133.2deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-13 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(136.8deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-14 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(140.4deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-15 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(144deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-16 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(147.6deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-17 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(151.2deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-18 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(154.8deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-19 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(158.4deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-20 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(162deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-21 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(165.6deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-22 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(169.2deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-23 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(172.8deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-24 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(176.4deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-25 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(180deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-26 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(183.6deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-27 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(187.2deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-28 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(190.8deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-29 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(194.4deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-30 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(198deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-31 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(201.6deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-32 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(205.2deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-33 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(208.8deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-34 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(212.4deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-35 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(216deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-36 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(219.6deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-37 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(223.2deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-38 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(226.8deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-39 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(230.4deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-40 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(234deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-41 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(237.6deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-42 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(241.2deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-43 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(244.8deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-44 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(248.4deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-45 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(252deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-46 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(255.6deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-47 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(259.2deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-48 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(262.8deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-49 {
   background-image: linear-gradient(90deg, #d2d3d5 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(266.4deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-50 {
   background-image: linear-gradient(-90deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-51 {
   background-image: linear-gradient(-86.4deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-52 {
   background-image: linear-gradient(-82.8deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-53 {
   background-image: linear-gradient(-79.2deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-54 {
   background-image: linear-gradient(-75.6deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-55 {
   background-image: linear-gradient(-72deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-56 {
   background-image: linear-gradient(-68.4deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-57 {
   background-image: linear-gradient(-64.8deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-58 {
   background-image: linear-gradient(-61.2deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-59 {
   background-image: linear-gradient(-57.6deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-60 {
   background-image: linear-gradient(-54deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-61 {
   background-image: linear-gradient(-50.4deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-62 {
   background-image: linear-gradient(-46.8deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-63 {
   background-image: linear-gradient(-43.2deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-64 {
   background-image: linear-gradient(-39.6deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-65 {
   background-image: linear-gradient(-36deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-66 {
   background-image: linear-gradient(-32.4deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-67 {
   background-image: linear-gradient(-28.8deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-68 {
   background-image: linear-gradient(-25.2deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-69 {
   background-image: linear-gradient(-21.6deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-70 {
   background-image: linear-gradient(-18deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-71 {
   background-image: linear-gradient(-14.4deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-72 {
   background-image: linear-gradient(-10.8deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-73 {
   background-image: linear-gradient(-7.2deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-74 {
   background-image: linear-gradient(-3.6deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-75 {
   background-image: linear-gradient(0deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-76 {
   background-image: linear-gradient(3.6deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-77 {
   background-image: linear-gradient(7.2deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-78 {
   background-image: linear-gradient(10.8deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-79 {
   background-image: linear-gradient(14.4deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-80 {
   background-image: linear-gradient(18deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-81 {
   background-image: linear-gradient(21.6deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-82 {
   background-image: linear-gradient(25.2deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-83 {
   background-image: linear-gradient(28.8deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-84 {
   background-image: linear-gradient(32.4deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-85 {
   background-image: linear-gradient(36deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-86 {
   background-image: linear-gradient(39.6deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-87 {
   background-image: linear-gradient(43.2deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-88 {
   background-image: linear-gradient(46.8deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-89 {
   background-image: linear-gradient(50.4deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-90 {
   background-image: linear-gradient(54deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-91 {
   background-image: linear-gradient(57.6deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-92 {
   background-image: linear-gradient(61.2deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-93 {
   background-image: linear-gradient(64.8deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-94 {
   background-image: linear-gradient(68.4deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-95 {
   background-image: linear-gradient(72deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-96 {
   background-image: linear-gradient(75.6deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-97 {
   background-image: linear-gradient(79.2deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-98 {
   background-image: linear-gradient(82.8deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-99 {
   background-image: linear-gradient(86.4deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 56, ../../../components/sass/_animations.scss */
 .progress-100 {
   background-image: linear-gradient(90deg, #8d1b1f 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #8d1b1f 50%, #d2d3d5 50%, #d2d3d5);
 }
 
-/* line 3, ../../../components/sass/_modules.scss */
 header {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
 }
-/* line 11, ../../../components/sass/_modules.scss */
 header #logo-space img {
   visibility: hidden;
   width: 80%;
 }
-/* line 17, ../../../components/sass/_modules.scss */
 header #logo-big {
   position: absolute;
   /*width: 658px;
@@ -702,7 +584,6 @@ header #logo-big {
   top: 3%;
   left: 15.73%;
 }
-/* line 32, ../../../components/sass/_modules.scss */
 header h1 {
   font-family: "Heuristica-Regular", serif;
   font-size: 110px;
@@ -713,22 +594,18 @@ header h1 {
   text-align: center;
   margin: 0 auto;
 }
-/* line 42, ../../../components/sass/_modules.scss */
 header h1 .title-highlight {
   font-size: 207px;
   line-height: 85%;
   font-family: "Heuristica-Italic", serif;
 }
-/* line 49, ../../../components/sass/_modules.scss */
 header .stars {
   text-align: center;
   margin: 20px auto 10px auto;
 }
-/* line 53, ../../../components/sass/_modules.scss */
 header .stars img {
   width: 116px;
 }
-/* line 58, ../../../components/sass/_modules.scss */
 header .title-description {
   font-family: "Heuristica-Italic", serif;
   font-size: 36px;
@@ -738,7 +615,6 @@ header .title-description {
   min-width: 270px;
   margin: 0 auto;
 }
-/* line 68, ../../../components/sass/_modules.scss */
 header .byline-main {
   font-family: "Heuristica-Bold", serif;
   font-size: 36px;
@@ -747,12 +623,10 @@ header .byline-main {
   margin: 80px auto 10px auto;
 }
 @media (max-width: 599px) {
-  /* line 68, ../../../components/sass/_modules.scss */
   header .byline-main {
     margin: 40px auto 10px auto;
   }
 }
-/* line 80, ../../../components/sass/_modules.scss */
 header .byline-sub {
   font-family: "Heuristica-Regular", serif;
   font-size: 22px;
@@ -761,27 +635,22 @@ header .byline-sub {
   margin-bottom: 70px;
 }
 @media (max-width: 599px) {
-  /* line 80, ../../../components/sass/_modules.scss */
   header .byline-sub {
     margin-bottom: 30px;
   }
 }
 
-/* line 95, ../../../components/sass/_modules.scss */
 section {
   width: 100%;
   margin: 0 auto;
 }
-/* line 100, ../../../components/sass/_modules.scss */
 section .photo-container {
   width: 100%;
   position: relative;
 }
-/* line 104, ../../../components/sass/_modules.scss */
 section .photo-container .full-img {
   width: 100%;
 }
-/* line 108, ../../../components/sass/_modules.scss */
 section .photo-container .caption-full {
   width: 100%;
   line-height: 18px;
@@ -792,30 +661,24 @@ section .photo-container .caption-full {
   bottom: 0;
   left: 0;
 }
-/* line 118, ../../../components/sass/_modules.scss */
 section .photo-container .caption-full.caption-red {
   background-color: #693A37;
 }
-/* line 124, ../../../components/sass/_modules.scss */
 section .caption {
   color: #fff;
   font-family: "NotoSans-Bold", sans-serif;
   font-size: 14px;
 }
-/* line 129, ../../../components/sass/_modules.scss */
 section .caption .light {
   font-family: "NotoSans-Regular", sans-serif;
 }
-/* line 134, ../../../components/sass/_modules.scss */
 section .text {
   padding: 30px 0 25px 0;
   background-color: #fff;
 }
-/* line 138, ../../../components/sass/_modules.scss */
 section .text a {
   color: #8d1b20;
 }
-/* line 142, ../../../components/sass/_modules.scss */
 section .text p {
   font-family: "Heuristica-Regular", serif;
   font-size: 14px;
@@ -825,16 +688,13 @@ section .text p {
   margin: 0 auto;
 }
 @media (max-width: 821px) {
-  /* line 142, ../../../components/sass/_modules.scss */
   section .text p {
     width: 90%;
   }
 }
-/* line 154, ../../../components/sass/_modules.scss */
 section .text p.first {
   text-indent: 0;
 }
-/* line 158, ../../../components/sass/_modules.scss */
 section .text p .highlight {
   color: #8d1b20;
   font-family: "Heuristica-BoldItalic", serif;
@@ -843,7 +703,6 @@ section .text p .highlight {
   font-weight: bold;
   font-style: italic;
 }
-/* line 170, ../../../components/sass/_modules.scss */
 section .text .side-stat {
   box-sizing: content-box;
   color: #8d1b20;
@@ -854,27 +713,22 @@ section .text .side-stat {
   border-right: 2px solid #000;
 }
 @media (max-width: 821px) {
-  /* line 170, ../../../components/sass/_modules.scss */
   section .text .side-stat {
     margin-left: 5%;
     margin-right: 1em;
     margin-bottom: 1em;
   }
 }
-/* line 185, ../../../components/sass/_modules.scss */
 section .text .side-stat .side-percent {
   font-family: "NotoSans-Bold", sans-serif;
 }
-/* line 188, ../../../components/sass/_modules.scss */
 section .text .side-stat .side-percent .side-num {
   font-size: 48px;
 }
-/* line 192, ../../../components/sass/_modules.scss */
 section .text .side-stat .side-percent .side-sign {
   font-size: 28px;
   vertical-align: top;
 }
-/* line 198, ../../../components/sass/_modules.scss */
 section .text .side-stat .side-desc {
   font-family: "Heuristica-BoldItalic", serif;
   font-size: 16px;
@@ -882,47 +736,40 @@ section .text .side-stat .side-desc {
   font-weight: bold;
   font-style: italic;
 }
-/* line 209, ../../../components/sass/_modules.scss */
 section#mix .text .side-stat {
   width: 130px;
   margin-left: calc(20% - 162px);
   margin-top: 1em;
 }
 @media (max-width: 821px) {
-  /* line 209, ../../../components/sass/_modules.scss */
   section#mix .text .side-stat {
     margin-top: 1em;
     margin-left: 5%;
   }
 }
-/* line 220, ../../../components/sass/_modules.scss */
 section#legal .text .side-stat {
   width: 87px;
   margin-left: calc(20% - 119px);
   margin-top: 2em;
 }
 @media (max-width: 821px) {
-  /* line 220, ../../../components/sass/_modules.scss */
   section#legal .text .side-stat {
     margin-top: 1em;
     margin-left: 5%;
   }
 }
-/* line 231, ../../../components/sass/_modules.scss */
 section#two .text .side-stat {
   width: 121px;
   margin-left: calc(20% - 153px);
   margin-top: 0;
 }
 @media (max-width: 821px) {
-  /* line 231, ../../../components/sass/_modules.scss */
   section#two .text .side-stat {
     margin-top: 1em;
     margin-left: 5%;
   }
 }
 
-/* line 249, ../../../components/sass/_modules.scss */
 #intro .text p .highlight {
   color: #8d1b20;
   font-family: "Heuristica-Bold", serif;
@@ -930,7 +777,6 @@ section#two .text .side-stat {
   font-style: normal;
   font-weight: normal;
 }
-/* line 256, ../../../components/sass/_modules.scss */
 #intro .text p .highlight .big-letter {
   font-family: "Heuristica-Regular", serif;
   font-size: 300px;
@@ -939,14 +785,12 @@ section#two .text .side-stat {
   margin-top: 3px;
 }
 @media (max-width: 599px) {
-  /* line 256, ../../../components/sass/_modules.scss */
   #intro .text p .highlight .big-letter {
     font-size: 150px;
     line-height: 106px;
   }
 }
 
-/* line 278, ../../../components/sass/_modules.scss */
 section .banner h2 {
   font-family: "Heuristica-BoldItalic", serif;
   font-size: 36px;
@@ -955,7 +799,6 @@ section .banner h2 {
   font-weight: bold;
   font-style: italic;
 }
-/* line 287, ../../../components/sass/_modules.scss */
 section .banner .description {
   font-family: "NotoSans-Bold", sans-serif;
   font-size: 13px;
@@ -963,14 +806,12 @@ section .banner .description {
   line-height: 140%;
   z-index: 5;
 }
-/* line 296, ../../../components/sass/_modules.scss */
 section .banner {
   width: 100%;
   padding: 4%;
   position: relative;
   overflow: hidden;
 }
-/* line 302, ../../../components/sass/_modules.scss */
 section .banner .logo {
   position: absolute;
   opacity: .7;
@@ -978,60 +819,46 @@ section .banner .logo {
   right: 75px;
   width: 23%;
 }
-/* line 312, ../../../components/sass/_modules.scss */
 section#stepmom .banner {
   background-color: #ea3a2d;
 }
-/* line 315, ../../../components/sass/_modules.scss */
 section#stepmom .banner .description {
   width: 70%;
 }
-/* line 324, ../../../components/sass/_modules.scss */
 section#grandma .banner {
   background-color: #7a9ca5;
 }
-/* line 327, ../../../components/sass/_modules.scss */
 section#grandma .banner .description {
   width: 62%;
 }
-/* line 336, ../../../components/sass/_modules.scss */
 section#mix .banner {
   background-color: #9a8aa4;
 }
-/* line 339, ../../../components/sass/_modules.scss */
 section#mix .banner .description {
   width: 65%;
 }
-/* line 348, ../../../components/sass/_modules.scss */
 section#legal .banner {
   background-color: #319b61;
 }
-/* line 351, ../../../components/sass/_modules.scss */
 section#legal .banner .description {
   width: 62%;
 }
-/* line 360, ../../../components/sass/_modules.scss */
 section#two .banner {
   background-color: #40c5fd;
 }
-/* line 363, ../../../components/sass/_modules.scss */
 section#two .banner .description {
   width: 62%;
 }
-/* line 372, ../../../components/sass/_modules.scss */
 section#boomerang .banner {
   background-color: #d51831;
 }
-/* line 375, ../../../components/sass/_modules.scss */
 section#boomerang .banner .description {
   width: 62%;
 }
-/* line 384, ../../../components/sass/_modules.scss */
 section#boomerang .text {
   padding-bottom: 50px;
 }
 @media (max-width: 729px) {
-  /* line 390, ../../../components/sass/_modules.scss */
   section .banner .logo, section .banner-half .logo {
     right: 2%;
     top: 50%;
@@ -1040,14 +867,12 @@ section#boomerang .text {
   }
 }
 
-/* line 404, ../../../components/sass/_modules.scss */
 #stats {
   width: 787px;
   height: 230px;
   margin: 30px auto 50px 35px;
   overflow: hidden;
 }
-/* line 411, ../../../components/sass/_modules.scss */
 #stats #stat-desc {
   background-color: #000;
   width: 140px;
@@ -1057,13 +882,11 @@ section#boomerang .text {
   margin-right: 40px;
   padding: 10px;
 }
-/* line 420, ../../../components/sass/_modules.scss */
 #stats #stat-desc h3 {
   font-family: "NotoSans-Regular", sans-serif;
   font-size: 24px;
   text-transform: uppercase;
 }
-/* line 426, ../../../components/sass/_modules.scss */
 #stats #stat-desc h4 {
   font-family: "Heuristica-BoldItalic", serif;
   font-size: 19px;
@@ -1071,13 +894,11 @@ section#boomerang .text {
   font-weight: bold;
   font-style: italic;
 }
-/* line 435, ../../../components/sass/_modules.scss */
 #stats #stat-desc p {
   font-family: "NotoSans-Bold", sans-serif;
   font-size: 12px;
   line-height: 1.3em;
 }
-/* line 441, ../../../components/sass/_modules.scss */
 #stats #stat-desc:after {
   content: '';
   display: block;
@@ -1089,12 +910,10 @@ section#boomerang .text {
   border-bottom: 115px solid transparent;
   border-left: 40px solid #000;
 }
-/* line 454, ../../../components/sass/_modules.scss */
 #stats #chart {
   float: left;
   width: 600px;
 }
-/* line 458, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair {
   width: 141px;
   padding: 0 2px;
@@ -1102,11 +921,9 @@ section#boomerang .text {
   position: relative;
   float: left;
 }
-/* line 465, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair.last {
   border-right: none;
 }
-/* line 469, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .pair-desc {
   height: 48px;
   font-family: "NotoSans-Bold", sans-serif;
@@ -1117,26 +934,21 @@ section#boomerang .text {
   position: absolute;
   top: 91px;
 }
-/* line 480, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .old, #stats #chart .stat-pair .new {
   margin: 0 auto;
 }
-/* line 484, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .new {
   margin-top: 48px;
 }
-/* line 488, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay {
   font-family: "NotoSans-Bold", sans-serif;
 }
-/* line 490, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay .percent {
   font-size: 38px;
   color: #8d1b1f;
   margin-top: 23px;
   margin-left: -5px;
 }
-/* line 496, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay .percent .percent-sign {
   font-size: 16px;
   margin-top: 5px;
@@ -1144,7 +956,6 @@ section#boomerang .text {
   margin-right: 4px;
   float: right;
 }
-/* line 505, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay .year {
   font-size: 14px;
   color: #435E89;
@@ -1152,19 +963,16 @@ section#boomerang .text {
   top: 10px;
   width: 100%;
 }
-/* line 516, ../../../components/sass/_modules.scss */
 #stats #chart #blocks {
   float: right;
   width: 28px;
   height: 230px;
 }
-/* line 521, ../../../components/sass/_modules.scss */
 #stats #chart #blocks .block {
   width: 28px;
   height: 88px;
   margin-top: 17px;
 }
-/* line 526, ../../../components/sass/_modules.scss */
 #stats #chart #blocks .block .block-text {
   font-family: "NotoSans-Regular", sans-serif;
   font-size: 18px;
@@ -1182,7 +990,6 @@ section#boomerang .text {
   margin-top: 38px;
 }
 @media (max-width: 821px) {
-  /* line 404, ../../../components/sass/_modules.scss */
   #stats {
     width: 250px;
     height: 600px;
@@ -1190,19 +997,16 @@ section#boomerang .text {
     position: relative;
     overflow: visible;
   }
-  /* line 554, ../../../components/sass/_modules.scss */
   #stats #stat-desc {
     position: absolute;
     left: calc( (100% - 250px) /2 - 190px);
     top: 148px;
   }
-  /* line 560, ../../../components/sass/_modules.scss */
   #stats #chart {
     width: 250px;
     float: none;
     margin: 0 auto;
   }
-  /* line 565, ../../../components/sass/_modules.scss */
   #stats #chart .stat-pair {
     width: 250px;
     float: none;
@@ -1211,37 +1015,30 @@ section#boomerang .text {
     padding: 0;
     margin-bottom: 10px;
   }
-  /* line 573, ../../../components/sass/_modules.scss */
   #stats #chart .stat-pair.last {
     border-bottom: none;
   }
-  /* line 577, ../../../components/sass/_modules.scss */
   #stats #chart .stat-pair .pair-desc {
     position: relative;
     top: 0;
     height: auto;
     margin-bottom: 5px;
   }
-  /* line 584, ../../../components/sass/_modules.scss */
   #stats #chart .stat-pair .old, #stats #chart .stat-pair .new {
     display: inline-block;
   }
-  /* line 588, ../../../components/sass/_modules.scss */
   #stats #chart .stat-pair .old {
     margin-right: 24px;
     margin-left: 21px;
   }
-  /* line 593, ../../../components/sass/_modules.scss */
   #stats #chart .stat-pair .new {
     margin-top: 0;
   }
-  /* line 599, ../../../components/sass/_modules.scss */
   #stats #chart #blocks {
     float: none;
     width: 250px;
     height: 28px;
   }
-  /* line 604, ../../../components/sass/_modules.scss */
   #stats #chart #blocks .block {
     width: 104px;
     height: 28px;
@@ -1250,12 +1047,10 @@ section#boomerang .text {
     float: left;
     margin-left: 10px;
   }
-  /* line 612, ../../../components/sass/_modules.scss */
   #stats #chart #blocks .block.second {
     float: right;
     margin-right: 10px;
   }
-  /* line 617, ../../../components/sass/_modules.scss */
   #stats #chart #blocks .block .block-text {
     width: 104px;
     height: 28px;
@@ -1267,11 +1062,9 @@ section#boomerang .text {
   }
 }
 @media (max-width: 628px) {
-  /* line 404, ../../../components/sass/_modules.scss */
   #stats {
     height: 800px;
   }
-  /* line 637, ../../../components/sass/_modules.scss */
   #stats #stat-desc {
     position: relative;
     left: 0;
@@ -1281,7 +1074,6 @@ section#boomerang .text {
     margin-bottom: 50px;
     margin-right: 0;
   }
-  /* line 646, ../../../components/sass/_modules.scss */
   #stats #stat-desc:after {
     content: '';
     display: block;
@@ -1295,18 +1087,15 @@ section#boomerang .text {
   }
 }
 
-/* line 670, ../../../components/sass/_modules.scss */
 .sticky-wrapper {
   position: relative;
   width: 100%;
 }
 
-/* line 675, ../../../components/sass/_modules.scss */
 .pin-container {
   width: 100%;
   position: relative;
 }
-/* line 679, ../../../components/sass/_modules.scss */
 .pin-container.stuck {
   position: fixed;
   top: 0;
@@ -1314,7 +1103,6 @@ section#boomerang .text {
   z-index: -1;
 }
 
-/* line 687, ../../../components/sass/_modules.scss */
 .caption {
   margin-top: -4px;
   position: relative;
@@ -1328,11 +1116,9 @@ section#boomerang .text {
   padding-left: 4%;
   z-index: 100;
 }
-/* line 700, ../../../components/sass/_modules.scss */
 .caption.caption-red {
   background-color: #693A37;
 }
-/* line 704, ../../../components/sass/_modules.scss */
 .caption .light {
   font-family: "NotoSans-Regular", sans-serif;
 }
