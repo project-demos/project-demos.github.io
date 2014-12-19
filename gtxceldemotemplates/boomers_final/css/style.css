@@ -986,12 +986,6 @@ section#stepmom .banner {
 section#stepmom .banner .description {
   width: 70%;
 }
-@media (max-width: 729px) {
-  /* line 315, ../../../components/sass/_modules.scss */
-  section#stepmom .banner .description {
-    width: 100%;
-  }
-}
 /* line 324, ../../../components/sass/_modules.scss */
 section#grandma .banner {
   background-color: #7a9ca5;
@@ -999,12 +993,6 @@ section#grandma .banner {
 /* line 327, ../../../components/sass/_modules.scss */
 section#grandma .banner .description {
   width: 62%;
-}
-@media (max-width: 729px) {
-  /* line 327, ../../../components/sass/_modules.scss */
-  section#grandma .banner .description {
-    width: 100%;
-  }
 }
 /* line 336, ../../../components/sass/_modules.scss */
 section#mix .banner {
@@ -1014,12 +1002,6 @@ section#mix .banner {
 section#mix .banner .description {
   width: 65%;
 }
-@media (max-width: 729px) {
-  /* line 339, ../../../components/sass/_modules.scss */
-  section#mix .banner .description {
-    width: 100%;
-  }
-}
 /* line 348, ../../../components/sass/_modules.scss */
 section#legal .banner {
   background-color: #319b61;
@@ -1027,12 +1009,6 @@ section#legal .banner {
 /* line 351, ../../../components/sass/_modules.scss */
 section#legal .banner .description {
   width: 62%;
-}
-@media (max-width: 729px) {
-  /* line 351, ../../../components/sass/_modules.scss */
-  section#legal .banner .description {
-    width: 100%;
-  }
 }
 /* line 360, ../../../components/sass/_modules.scss */
 section#two .banner {
@@ -1042,12 +1018,6 @@ section#two .banner {
 section#two .banner .description {
   width: 62%;
 }
-@media (max-width: 729px) {
-  /* line 363, ../../../components/sass/_modules.scss */
-  section#two .banner .description {
-    width: 100%;
-  }
-}
 /* line 372, ../../../components/sass/_modules.scss */
 section#boomerang .banner {
   background-color: #d51831;
@@ -1056,12 +1026,6 @@ section#boomerang .banner {
 section#boomerang .banner .description {
   width: 62%;
 }
-@media (max-width: 729px) {
-  /* line 375, ../../../components/sass/_modules.scss */
-  section#boomerang .banner .description {
-    width: 100%;
-  }
-}
 /* line 384, ../../../components/sass/_modules.scss */
 section#boomerang .text {
   padding-bottom: 50px;
@@ -1069,18 +1033,21 @@ section#boomerang .text {
 @media (max-width: 729px) {
   /* line 390, ../../../components/sass/_modules.scss */
   section .banner .logo, section .banner-half .logo {
-    display: none;
+    right: 2%;
+    top: 50%;
+    margin-top: -12%;
+    min-width: 100px;
   }
 }
 
-/* line 400, ../../../components/sass/_modules.scss */
+/* line 404, ../../../components/sass/_modules.scss */
 #stats {
   width: 787px;
   height: 230px;
   margin: 30px auto 50px 35px;
   overflow: hidden;
 }
-/* line 407, ../../../components/sass/_modules.scss */
+/* line 411, ../../../components/sass/_modules.scss */
 #stats #stat-desc {
   background-color: #000;
   width: 140px;
@@ -1090,13 +1057,13 @@ section#boomerang .text {
   margin-right: 40px;
   padding: 10px;
 }
-/* line 416, ../../../components/sass/_modules.scss */
+/* line 420, ../../../components/sass/_modules.scss */
 #stats #stat-desc h3 {
   font-family: "NotoSans-Regular", sans-serif;
   font-size: 24px;
   text-transform: uppercase;
 }
-/* line 422, ../../../components/sass/_modules.scss */
+/* line 426, ../../../components/sass/_modules.scss */
 #stats #stat-desc h4 {
   font-family: "Heuristica-BoldItalic", serif;
   font-size: 19px;
@@ -1104,13 +1071,13 @@ section#boomerang .text {
   font-weight: bold;
   font-style: italic;
 }
-/* line 431, ../../../components/sass/_modules.scss */
+/* line 435, ../../../components/sass/_modules.scss */
 #stats #stat-desc p {
   font-family: "NotoSans-Bold", sans-serif;
   font-size: 12px;
   line-height: 1.3em;
 }
-/* line 437, ../../../components/sass/_modules.scss */
+/* line 441, ../../../components/sass/_modules.scss */
 #stats #stat-desc:after {
   content: '';
   display: block;
@@ -1122,12 +1089,12 @@ section#boomerang .text {
   border-bottom: 115px solid transparent;
   border-left: 40px solid #000;
 }
-/* line 450, ../../../components/sass/_modules.scss */
+/* line 454, ../../../components/sass/_modules.scss */
 #stats #chart {
   float: left;
   width: 600px;
 }
-/* line 454, ../../../components/sass/_modules.scss */
+/* line 458, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair {
   width: 141px;
   padding: 0 2px;
@@ -1135,11 +1102,11 @@ section#boomerang .text {
   position: relative;
   float: left;
 }
-/* line 461, ../../../components/sass/_modules.scss */
+/* line 465, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair.last {
   border-right: none;
 }
-/* line 465, ../../../components/sass/_modules.scss */
+/* line 469, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .pair-desc {
   height: 48px;
   font-family: "NotoSans-Bold", sans-serif;
@@ -1150,26 +1117,26 @@ section#boomerang .text {
   position: absolute;
   top: 91px;
 }
-/* line 476, ../../../components/sass/_modules.scss */
+/* line 480, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .old, #stats #chart .stat-pair .new {
   margin: 0 auto;
 }
-/* line 480, ../../../components/sass/_modules.scss */
+/* line 484, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .new {
   margin-top: 48px;
 }
-/* line 484, ../../../components/sass/_modules.scss */
+/* line 488, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay {
   font-family: "NotoSans-Bold", sans-serif;
 }
-/* line 486, ../../../components/sass/_modules.scss */
+/* line 490, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay .percent {
   font-size: 38px;
   color: #8d1b1f;
   margin-top: 23px;
   margin-left: -5px;
 }
-/* line 492, ../../../components/sass/_modules.scss */
+/* line 496, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay .percent .percent-sign {
   font-size: 16px;
   margin-top: 5px;
@@ -1177,7 +1144,7 @@ section#boomerang .text {
   margin-right: 4px;
   float: right;
 }
-/* line 501, ../../../components/sass/_modules.scss */
+/* line 505, ../../../components/sass/_modules.scss */
 #stats #chart .stat-pair .overlay .year {
   font-size: 14px;
   color: #435E89;
@@ -1185,19 +1152,19 @@ section#boomerang .text {
   top: 10px;
   width: 100%;
 }
-/* line 512, ../../../components/sass/_modules.scss */
+/* line 516, ../../../components/sass/_modules.scss */
 #stats #chart #blocks {
   float: right;
   width: 28px;
   height: 230px;
 }
-/* line 517, ../../../components/sass/_modules.scss */
+/* line 521, ../../../components/sass/_modules.scss */
 #stats #chart #blocks .block {
   width: 28px;
   height: 88px;
   margin-top: 17px;
 }
-/* line 522, ../../../components/sass/_modules.scss */
+/* line 526, ../../../components/sass/_modules.scss */
 #stats #chart #blocks .block .block-text {
   font-family: "NotoSans-Regular", sans-serif;
   font-size: 18px;
@@ -1215,7 +1182,7 @@ section#boomerang .text {
   margin-top: 38px;
 }
 @media (max-width: 821px) {
-  /* line 400, ../../../components/sass/_modules.scss */
+  /* line 404, ../../../components/sass/_modules.scss */
   #stats {
     width: 250px;
     height: 600px;
@@ -1223,19 +1190,19 @@ section#boomerang .text {
     position: relative;
     overflow: visible;
   }
-  /* line 550, ../../../components/sass/_modules.scss */
+  /* line 554, ../../../components/sass/_modules.scss */
   #stats #stat-desc {
     position: absolute;
     left: calc( (100% - 250px) /2 - 190px);
     top: 148px;
   }
-  /* line 556, ../../../components/sass/_modules.scss */
+  /* line 560, ../../../components/sass/_modules.scss */
   #stats #chart {
     width: 250px;
     float: none;
     margin: 0 auto;
   }
-  /* line 561, ../../../components/sass/_modules.scss */
+  /* line 565, ../../../components/sass/_modules.scss */
   #stats #chart .stat-pair {
     width: 250px;
     float: none;
@@ -1244,37 +1211,37 @@ section#boomerang .text {
     padding: 0;
     margin-bottom: 10px;
   }
-  /* line 569, ../../../components/sass/_modules.scss */
+  /* line 573, ../../../components/sass/_modules.scss */
   #stats #chart .stat-pair.last {
     border-bottom: none;
   }
-  /* line 573, ../../../components/sass/_modules.scss */
+  /* line 577, ../../../components/sass/_modules.scss */
   #stats #chart .stat-pair .pair-desc {
     position: relative;
     top: 0;
     height: auto;
     margin-bottom: 5px;
   }
-  /* line 580, ../../../components/sass/_modules.scss */
+  /* line 584, ../../../components/sass/_modules.scss */
   #stats #chart .stat-pair .old, #stats #chart .stat-pair .new {
     display: inline-block;
   }
-  /* line 584, ../../../components/sass/_modules.scss */
+  /* line 588, ../../../components/sass/_modules.scss */
   #stats #chart .stat-pair .old {
     margin-right: 24px;
     margin-left: 21px;
   }
-  /* line 589, ../../../components/sass/_modules.scss */
+  /* line 593, ../../../components/sass/_modules.scss */
   #stats #chart .stat-pair .new {
     margin-top: 0;
   }
-  /* line 595, ../../../components/sass/_modules.scss */
+  /* line 599, ../../../components/sass/_modules.scss */
   #stats #chart #blocks {
     float: none;
     width: 250px;
     height: 28px;
   }
-  /* line 600, ../../../components/sass/_modules.scss */
+  /* line 604, ../../../components/sass/_modules.scss */
   #stats #chart #blocks .block {
     width: 104px;
     height: 28px;
@@ -1283,12 +1250,12 @@ section#boomerang .text {
     float: left;
     margin-left: 10px;
   }
-  /* line 608, ../../../components/sass/_modules.scss */
+  /* line 612, ../../../components/sass/_modules.scss */
   #stats #chart #blocks .block.second {
     float: right;
     margin-right: 10px;
   }
-  /* line 613, ../../../components/sass/_modules.scss */
+  /* line 617, ../../../components/sass/_modules.scss */
   #stats #chart #blocks .block .block-text {
     width: 104px;
     height: 28px;
@@ -1300,11 +1267,11 @@ section#boomerang .text {
   }
 }
 @media (max-width: 628px) {
-  /* line 400, ../../../components/sass/_modules.scss */
+  /* line 404, ../../../components/sass/_modules.scss */
   #stats {
     height: 800px;
   }
-  /* line 633, ../../../components/sass/_modules.scss */
+  /* line 637, ../../../components/sass/_modules.scss */
   #stats #stat-desc {
     position: relative;
     left: 0;
@@ -1314,7 +1281,7 @@ section#boomerang .text {
     margin-bottom: 50px;
     margin-right: 0;
   }
-  /* line 642, ../../../components/sass/_modules.scss */
+  /* line 646, ../../../components/sass/_modules.scss */
   #stats #stat-desc:after {
     content: '';
     display: block;
@@ -1328,18 +1295,18 @@ section#boomerang .text {
   }
 }
 
-/* line 666, ../../../components/sass/_modules.scss */
+/* line 670, ../../../components/sass/_modules.scss */
 .sticky-wrapper {
   position: relative;
   width: 100%;
 }
 
-/* line 671, ../../../components/sass/_modules.scss */
+/* line 675, ../../../components/sass/_modules.scss */
 .pin-container {
   width: 100%;
   position: relative;
 }
-/* line 675, ../../../components/sass/_modules.scss */
+/* line 679, ../../../components/sass/_modules.scss */
 .pin-container.stuck {
   position: fixed;
   top: 0;
@@ -1347,7 +1314,7 @@ section#boomerang .text {
   z-index: -1;
 }
 
-/* line 683, ../../../components/sass/_modules.scss */
+/* line 687, ../../../components/sass/_modules.scss */
 .caption {
   margin-top: -4px;
   position: relative;
@@ -1361,11 +1328,11 @@ section#boomerang .text {
   padding-left: 4%;
   z-index: 100;
 }
-/* line 696, ../../../components/sass/_modules.scss */
+/* line 700, ../../../components/sass/_modules.scss */
 .caption.caption-red {
   background-color: #693A37;
 }
-/* line 700, ../../../components/sass/_modules.scss */
+/* line 704, ../../../components/sass/_modules.scss */
 .caption .light {
   font-family: "NotoSans-Regular", sans-serif;
 }
